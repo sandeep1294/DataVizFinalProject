@@ -1,82 +1,558 @@
 
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Welcome to GitHub Pages | DataVizFinalProject</title>
-<meta name="generator" content="Jekyll v3.7.3" />
-<meta property="og:title" content="Welcome to GitHub Pages" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://sandeep1294.github.io/DataVizFinalProject/" />
-<meta property="og:url" content="https://sandeep1294.github.io/DataVizFinalProject/" />
-<meta property="og:site_name" content="Visualizing LIRR Delays" />
-<script type="application/ld+json">
-{"name":"DataVizFinalProject","@type":"WebSite","url":"https://sandeep1294.github.io/DataVizFinalProject/","headline":"Welcome to GitHub Pages","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <title>Welcome to GitHub Pages | DataVizFinalProject</title>
+  <meta name="generator" content="Jekyll v3.7.3" />
+  <meta property="og:title" content="Welcome to GitHub Pages" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="canonical" href="https://sandeep1294.github.io/DataVizFinalProject/" />
+  <meta property="og:url" content="https://sandeep1294.github.io/DataVizFinalProject/" />
+  <meta property="og:site_name" content="Visualizing LIRR Delays" />
+  <script type="application/ld+json">
+  {"name":"DataVizFinalProject","@type":"WebSite","url":"https://sandeep1294.github.io/DataVizFinalProject/","headline":"Welcome to GitHub Pages","@context":"http://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/DataVizFinalProject/assets/css/style.css?v=ef88af401747fa1a0bad0db3b75ca0ac51bb1e83">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Visualizing LIRR Delays</h1>
-      <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/sandeep1294/DataVizFinalProject" class="btn">View on GitHub</a>
-      
-      
-    </section>
-
-    <section class="main-content">
-      <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
-
-<p>You can use the <a href="https://github.com/sandeep1294/DataVizFinalProject/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-
-<h3 id="markdown">Markdown</h3>
-
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax highlighted code block
-
-<span class="gh"># Header 1</span>
-<span class="gu">## Header 2</span>
-<span class="gu">### Header 3</span>
-<span class="p">
--</span> Bulleted
-<span class="p">-</span> List
-<span class="p">
-1.</span> Numbered
-<span class="p">2.</span> List
-
-<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text
-
-<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-
-<h3 id="jekyll-themes">Jekyll Themes</h3>
-
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/sandeep1294/DataVizFinalProject/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code class="highlighter-rouge">_config.yml</code> configuration file.</p>
-
-<h3 id="support-or-contact">Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css?v=ef88af401747fa1a0bad0db3b75ca0ac51bb1e83">
+  <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="fullpage.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fullPage.css" />
 
 
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/sandeep1294/DataVizFinalProject">DataVizFinalProject</a> is maintained by <a href="https://github.com/sandeep1294">sandeep1294</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </section>
+</head>
+<body>
 
-    
+  <section class="page-header">
+    <h1 class="project-name">Visualizing LIRR Delays</h1>
+    <h2 class="project-tagline"></h2>
+
+    <a href="https://github.com/sandeep1294/DataVizFinalProject" class="btn">View on GitHub</a>
+
+
+  </section>
+
+
+
+  <section class="main-content">
+
+    <div id="svg-container">
+      <svg id="overviewViz">
+      </svg>
+
+      <svg id="byBranchViz">
+
+      </svg>
+
+      <svg id="byBranchLateViz">
+      </svg>
+
+      <svg id="byHourViz">
+      </svg>
+
+      <a name="animation" class="dropbtn">Toggle Animation</a>
+      <div class="dropdown">
+        <button class="dropbtn">Years</button>
+        <div class="dropdown-content">
+          <a name="year" data-value="2011">2011</a>
+          <a name="year" data-value="2012">2012</a>
+          <a name="year" data-value="2013">2013</a>
+          <a name="year" data-value="2014">2014</a>
+          <a name="year" data-value="2015">2015</a>
+          <a name="year" data-value="2016">2016</a>
+          <a name="year" data-value="2017">2017</a>
+        </div>
+      </div>
+    </div>
+
   </body>
-</html>
+  </html>
+
+  <script>
+
+    var SVG_WIDTH = 1000;
+    var SVG_HEIGHT = 400;
+    var ANIMATION = false;
+
+
+  </script>
+
+  <script>
+
+
+
+
+    var data = d3.csv("quarterOverviewData.csv",function(data){
+      updateOverviewViz(data);
+    });
+
+    var byBranchData = d3.csv("byBranchData.csv",function(data){
+      updateByBranchViz(data.slice(),data.slice(),"2011","start");
+      updateByBranchLateViz(data.slice(),data.slice(),"2011","start");
+    });
+
+    var byHourData = d3.csv("byHourData.csv", function(data){
+      data.forEach(function(d) {
+        d.NR = +d.NR;
+      });
+      updateByHourViz(data.slice(),data.slice(),"2011","start");
+    });
+
+    function updateByBranch(year){
+      d3.csv("byBranchData.csv",function(data){
+        updateByBranchViz(data.slice(),data.slice(),year,"update");
+        updateByBranchLateViz(data.slice(),data.slice(),year,"update");
+        updateByHour(year)});
+    }
+
+    function updateByHour(year){
+      d3.csv("byHourData.csv", function(data){
+        data.forEach(function(d) {
+          d.NR = +d.NR;
+        });
+        updateByHourViz(data.slice(),data.slice(),year,"update");
+      });}
+    </script>
+
+    <script>
+
+      function filterDataByYear(data, year)
+      {
+        return data.filter(function(d, i){ return (d.year==year)}); 
+      }
+
+      function aggregateByHour(data)
+      {
+        return d3.nest()
+        .key(function(d) { return d.hour; })
+        .rollup(function(v) { return d3.sum(v,function(d) {return d.NR;});
+      })
+        .entries(data);
+      }
+
+      $("a[name=year]").on("click", function () { 
+        var a = $(this).data("value"); 
+        updateByBranch(a); 
+      });
+
+      $("a[name=animation]").on("click", function () { 
+        ANIMATION=!ANIMATION; 
+      });
+
+      function updateByHourViz(data,origData,year,action){
+
+        const t = d3.transition()
+        .duration(750);
+        data = filterDataByYear(data, year);
+        data = aggregateByHour(data);
+        var vizW = 900;
+        var vizH = 400;
+        var margin = { top:20, right:20, bottom:30, left: 50 };
+        var width = vizW - margin.left - margin.right;
+        var height = vizH - margin.top - margin.bottom;
+
+        var viz = d3.select("#byHourViz")
+        .attr("width", vizW)
+        .attr("height", vizH);
+
+        var g = viz.append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var xAxis = d3.scaleBand().rangeRound([0,width]);
+        var yAxis = d3.scaleLinear().rangeRound([height, 0]);
+        var line = d3.line()
+        .x(function(d) { return xAxis(d.key)+14;})
+        .y(function(d) { return yAxis(parseInt(d.value));})
+        xAxis.domain(data.map(function(d) {return d.key}));
+        yAxis.domain([0,3000]);
+
+        if(action!="update"){
+          g.append("g")
+          .attr("class", "xaxis")
+          .attr("transform", "translate(0,"+height+")")
+          .call(d3.axisBottom(xAxis))
+          .select(".domain")
+
+          g.append("g")
+          .call(d3.axisLeft(yAxis))
+          .append("text")
+          .attr("fill", "#000")
+          .attr("transform", "rotate(-90)")
+          .attr("y", 6)
+          .attr("dy", "0.71em")
+          .attr("text-anchor", "end")
+          .text("Number of Delays");
+                  g.append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .attr("stroke-width",3)
+        .attr("d", line);
+
+
+        }
+        
+        g.select("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .attr("stroke-width",3)
+        .transition(t)
+        .attr("d", line);
+
+        viz.selectAll("circle")
+        .data(data)
+        .attr("class","datacircles")
+        .attr("r", 5)
+                .transition(t)
+        .attr("cx", function(d) {
+          return xAxis(d.key)+64;
+        })
+        .attr("cy", function(d) {
+          return yAxis(d.value)+22;
+        });
+
+
+        viz.selectAll("circle")
+        .data(data)
+        .enter().append("circle")
+        .attr("class","datacircles")
+        .attr("r", 5)
+                .transition(t)
+        .attr("cx", function(d) {
+          return xAxis(d.key)+64;
+        })
+        .attr("cy", function(d) {
+          return yAxis(d.value)+22;
+        });
+
+        // viz.select(".xaxis").selectAll(".tick")
+        // .filter(function(d,i) {return !(i)})
+        // .remove();
+
+
+      }
+
+
+      function updateByBranchLateViz(data, origData,year,action){
+        data = filterDataByYear(data,year);
+        console.log(data);
+        var vizW = SVG_WIDTH;
+        var vizH = SVG_HEIGHT;
+        var margin = { top:20, right:20, bottom:30, left: 50 };
+        var width = vizW - margin.left - margin.right;
+        var height = vizH - margin.top - margin.bottom;
+        var xAxis = d3.scaleBand().rangeRound([0,width]).padding(0.1);
+        var yAxis = d3.scaleLinear().rangeRound([height, 0]);
+
+        var viz = null;
+        if(action=="start"){
+          viz = d3.select("#byBranchLateViz")  
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("class","graph")
+          .attr("transform", 
+            "translate(" + margin.left + "," + margin.top + ")");
+        }else{
+          viz = d3.select("#byBranchLateViz");
+        }
+
+
+  // Scale the range of the data in the domains
+  xAxis.domain(data.map(function(d) { return d.branch; }));
+  yAxis.domain([0, d3.max(origData, function(d) { return parseInt(d.lateby); })]);
+  const t = d3.transition()
+  .duration(750);
+  // append the rectangles for the bar chart
+  viz.selectAll("rect")
+  .data(data)
+  .attr("class", "bar")
+  .attr("fill", "steelblue")
+  .attr("x", function(d) { return xAxis(d.branch); })
+  .attr("width", xAxis.bandwidth())
+  .transition(t)
+  .attr("y", function(d) { return yAxis(d.lateby); })
+  .attr("height", function(d) { return height - yAxis(d.lateby); });
+  viz.selectAll("rect")
+  .data(data)
+  .enter().append("rect")
+  .attr("class", "bar")
+  .attr("fill", "steelblue")
+  .attr("x", function(d) { return xAxis(d.branch); })
+  .attr("width", xAxis.bandwidth())
+  .attr("y", function(d) {
+    return yAxis(0);
+  })
+  .attr("height", 0)
+  .transition(t)
+  .attr("y", function(d) { return yAxis(d.lateby); })
+  .attr("height", function(d) { return height - yAxis(d.lateby); });
+
+  viz.append("text")
+
+
+  if(action=="start"){
+    // add the x Axis
+    viz.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(xAxis));
+
+    // add the y Axis
+    viz.append("g")
+    .call(d3.axisLeft(yAxis))
+    .append("text")
+    .attr("fill", "#000")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("dy", "0.71em")
+    .attr("text-anchor", "end")
+    .text("Late By (mins)");
+
+  }
+}
+
+function updateByBranchViz(data,origData,year,action)
+{
+  data = filterDataByYear(data,year);
+  console.log(data);
+  var vizW = SVG_WIDTH;
+  var vizH = SVG_HEIGHT;
+  var margin = { top:20, right:20, bottom:30, left: 50 };
+  var width = vizW - margin.left - margin.right;
+  var height = vizH - margin.top - margin.bottom;
+  var xAxis = d3.scaleBand().rangeRound([0,width]).padding(0.1);
+  var yAxis = d3.scaleLinear().rangeRound([height, 0]);
+
+  var viz = null;
+  if(action=="start"){
+    viz = d3.select("#byBranchViz")  
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("class","graph")
+    .attr("transform", 
+      "translate(" + margin.left + "," + margin.top + ")");
+  }else{
+    viz = d3.select("#byBranchViz");
+  }
+
+
+  // Scale the range of the data in the domains
+  xAxis.domain(data.map(function(d) { return d.branch; }));
+  yAxis.domain([0, d3.max(origData, function(d) { return parseInt(d.NR); })]);
+  const t = d3.transition()
+  .duration(750);
+  // append the rectangles for the bar chart
+  viz.selectAll("rect")
+  .data(data)
+  .attr("class", "bar")
+  .attr("fill", "steelblue")
+  .attr("x", function(d) { return xAxis(d.branch); })
+  .attr("width", xAxis.bandwidth())
+  .transition(t)
+  .attr("y", function(d) { return yAxis(d.NR); })
+  .attr("height", function(d) { return height - yAxis(d.NR); });
+  viz.selectAll("rect")
+  .data(data)
+  .enter().append("rect")
+  .attr("class", "bar")
+  .attr("fill", "steelblue")
+  .attr("x", function(d) { return xAxis(d.branch); })
+  .attr("width", xAxis.bandwidth())
+  .attr("y", function(d) {
+    return yAxis(0);
+  })
+  .attr("height", 0)
+  .transition(t)
+  .attr("y", function(d) { return yAxis(d.NR); })
+  .attr("height", function(d) { return height - yAxis(d.NR); });
+
+  viz.append("text")
+
+
+  if(action=="start"){
+    // add the x Axis
+    viz.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(xAxis));
+
+    // add the y Axis
+    viz.append("g")
+    .call(d3.axisLeft(yAxis))
+    .append("text")
+    .attr("fill", "#000")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 6)
+    .attr("dy", "0.71em")
+    .attr("text-anchor", "end")
+    .text("Number of Delays");
+  }
+
+
+}
+    function transition(path) {
+        path.transition()
+            .duration(5000)
+            .attrTween("stroke-dasharray", tweenDash);
+    }
+        function tweenDash() {
+        var l = this.getTotalLength(),
+            i = d3.interpolateString("0," + l, l + "," + l);
+        return function (t) { return i(t); };
+    }
+function updateOverviewViz(data)
+{
+  var vizW = 900;
+  var vizH = 400;
+  var margin = { top:20, right:20, bottom:30, left: 50 };
+  var width = vizW - margin.left - margin.right;
+  var height = vizH - margin.top - margin.bottom;
+
+  var viz = d3.select("#overviewViz")
+  .attr("width", vizW)
+  .attr("height", vizH);
+
+  var g = viz.append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var xAxis = d3.scaleBand().rangeRound([0,width]);
+  var yAxis = d3.scaleLinear().rangeRound([height, 0]);
+  var line = d3.line()
+  .x(function(d) { return xAxis(d.QD)+14;})
+  .y(function(d) { return yAxis(parseInt(d.NR));})
+  xAxis.domain(data.map(function(d) {return d.QD}));
+  yAxis.domain([parseInt(d3.extent(data, function(d) {return d.NR})[0])-1000,parseInt(d3.extent(data, function(d) {return d.NR})[1])]);
+
+  g.append("g")
+  .attr("class", "xaxis")
+  .attr("transform", "translate(0,"+height+")")
+  .call(d3.axisBottom(xAxis))
+  .select(".domain")
+
+  g.append("g")
+  .call(d3.axisLeft(yAxis))
+  .append("text")
+  .attr("fill", "#000")
+  .attr("transform", "rotate(-90)")
+  .attr("y", 6)
+  .attr("dy", "0.71em")
+  .attr("text-anchor", "end")
+  .text("Number of Delays");
+
+  g.append("path")
+  .datum(data)
+  .attr("class", "line")
+  .attr("fill", "none")
+  .attr("stroke", "steelblue")
+  .attr("stroke-linejoin", "round")
+  .attr("stroke-linecap", "round")
+  .attr("stroke-width",3);
+              g.select("path.line")
+                .datum(data)
+                .attr("d", line)
+                .call(transition);
+
+  viz.selectAll("dot")
+  .data(data)
+  .enter().append("circle")
+  .attr("class","datacircles")
+  .attr("r", 5)
+
+  .attr("cx", function(d) {
+    return xAxis(d.QD)+64;
+  })
+  .attr("cy", function(d) {
+    return yAxis(d.NR)+22;
+  });
+
+  viz.select(".xaxis").selectAll(".tick")
+  .filter(function(d,i) {return !(i%2)})
+  .remove();
+
+
+}
+
+d3.interval(() => {
+  if(ANIMATION==true){
+    updateByBranch("2011");
+    updateByBranch("2012");
+    updateByBranch("2013");
+    updateByBranch("2014");
+    updateByBranch("2015");
+    updateByBranch("2016");
+    updateByBranch("2017");
+  }
+}, 2000);
+</script>
+
+<style>
+.line-chart
+{
+  border: 1px solid lightgray;
+}
+</style>
+
+<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
