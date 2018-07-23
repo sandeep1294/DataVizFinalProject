@@ -1,0 +1,1019 @@
+﻿Branch,From,To,Year,Number of Delays
+Babylon,Atlantic Terminal,Jamaica Station,2011,14
+Babylon,Atlantic Terminal,Babylon Station,2011,98
+Babylon,Babylon Station,West Side Yard,2011,9
+Babylon,Babylon Station,Penn Station,2011,1280
+Babylon,Babylon Station,Atlantic Terminal,2011,38
+Babylon,Freeport Station,Penn Station,2011,78
+Babylon,Jamaica Station,Babylon Station,2011,3
+Babylon,Lindenhurst Station,Penn Station,2011,25
+Babylon,Massapequa Park Station,Penn Station,2011,58
+Babylon,Massapequa Park Station,Atlantic Terminal,2011,4
+Babylon,Merrick Station,Penn Station,2011,15
+Babylon,Penn Station,Wantagh Station,2011,116
+Babylon,Penn Station,Seaford Station,2011,45
+Babylon,Penn Station,Montauk Station,2011,8
+Babylon,Penn Station,Massapequa Park Station,2011,14
+Babylon,Penn Station,Freeport Station,2011,112
+Babylon,Penn Station,Babylon Station,2011,1085
+Babylon,Wantagh Station,Penn Station,2011,52
+Babylon,West Side Yard,Babylon Station,2011,1
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2011,231
+Far Rockaway,Far Rockaway Station,West Side Yard,2011,1
+Far Rockaway,Far Rockaway Station,Valley Stream Station,2011,1
+Far Rockaway,Far Rockaway Station,Penn Station,2011,119
+Far Rockaway,Far Rockaway Station,Jamaica Station,2011,15
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2011,210
+Far Rockaway,Hall Tower,Atlantic Terminal,2011,1
+Far Rockaway,Jamaica Station,Far Rockaway Station,2011,25
+Far Rockaway,Jamaica Station,Atlantic Terminal,2011,38
+Far Rockaway,Penn Station,Far Rockaway Station,2011,39
+Far Rockaway,Valley Stream Station,Penn Station,2011,32
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2011,3
+Hempstead,Atlantic Terminal,Hempstead Station,2011,210
+Hempstead,Hempstead Station,Penn Station,2011,100
+Hempstead,Hempstead Station,Jamaica Station,2011,25
+Hempstead,Hempstead Station,Atlantic Terminal,2011,195
+Hempstead,Jamaica Station,Hempstead Station,2011,36
+Hempstead,Penn Station,Hempstead Station,2011,112
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2011,22
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2011,19
+Hunt. Hicks.,Hicksville Station,Penn Station,2011,51
+Hunt. Hicks.,Huntington Station,West Side Yard,2011,10
+Hunt. Hicks.,Huntington Station,Penn Station,2011,770
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2011,10
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2011,25
+Hunt. Hicks.,Jamaica Station,Huntington Station,2011,14
+Hunt. Hicks.,Penn Station,Jamaica Station,2011,3
+Hunt. Hicks.,Penn Station,Huntington Station,2011,1022
+Hunt. Hicks.,Penn Station,Hicksville Station,2011,106
+Hunt. Hicks.,West Side Yard,Huntington Station,2011,7
+Hunt. Hicks.,Westbury Station,Penn Station,2011,30
+Long Beach,Atlantic Terminal,Long Beach Station,2011,99
+Long Beach,Jamaica Station,Long Beach Station,2011,10
+Long Beach,Jamaica Station,Atlantic Terminal,2011,8
+Long Beach,Long Beach Station,West Side Yard,2011,4
+Long Beach,Long Beach Station,Penn Station,2011,380
+Long Beach,Long Beach Station,Jamaica Station,2011,15
+Long Beach,Long Beach Station,Atlantic Terminal,2011,49
+Long Beach,Penn Station,Long Beach Station,2011,313
+Long Beach,West Side Yard,Long Beach Station,2011,1
+Montauk,Babylon Station,Speonk Station,2011,102
+Montauk,Babylon Station,Patchogue Station,2011,209
+Montauk,Babylon Station,Montauk Station,2011,23
+Montauk,Bridgehampton Station,Jamaica Station,2011,7
+Montauk,Hunterspoint Ave.,Montauk Station,2011,45
+Montauk,Jamaica Station,Speonk Station,2011,59
+Montauk,Jamaica Station,Patchogue Station,2011,112
+Montauk,Jamaica Station,Montauk Station,2011,221
+Montauk,Jamaica Storage Yard,Montauk Station,2011,2
+Montauk,Long Island City,Patchogue Station,2011,26
+Montauk,Montauk Station,Long Island City,2011,35
+Montauk,Montauk Station,Jamaica Storage Yard,2011,1
+Montauk,Montauk Station,Jamaica Station,2011,259
+Montauk,Montauk Station,Hunterspoint Ave.,2011,2
+Montauk,Montauk Station,Babylon Station,2011,27
+Montauk,Patchogue Station,Montauk Station,2011,2
+Montauk,Patchogue Station,Jamaica Station,2011,26
+Montauk,Patchogue Station,Babylon Station,2011,181
+Montauk,Penn Station,Speonk Station,2011,39
+Montauk,Speonk Station,Penn Station,2011,91
+Montauk,Speonk Station,Long Island City,2011,14
+Montauk,Speonk Station,Jamaica Storage Yard,2011,1
+Montauk,Speonk Station,Jamaica Station,2011,39
+Montauk,Speonk Station,Hunterspoint Ave.,2011,14
+Montauk,Speonk Station,Babylon Station,2011,70
+Oyster Bay,East Williston Station,Penn Station,2011,13
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2011,42
+Oyster Bay,Jamaica Station,Oyster Bay Station,2011,252
+Oyster Bay,Jamaica Storage Yard,Oyster Bay Station,2011,2
+Oyster Bay,Long Island City,Oyster Bay Station,2011,29
+Oyster Bay,Mineola Station,Oyster Bay Station,2011,1
+Oyster Bay,Oyster Bay Station,Penn Station,2011,27
+Oyster Bay,Oyster Bay Station,Mineola Station,2011,5
+Oyster Bay,Oyster Bay Station,Long Island City,2011,41
+Oyster Bay,Oyster Bay Station,Jamaica Storage Yard,2011,3
+Oyster Bay,Oyster Bay Station,Jamaica Station,2011,182
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2011,10
+Oyster Bay,Penn Station,Oyster Bay Station,2011,73
+Port Jefferson,Hicksville Station,Port Jefferson Station,2011,64
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2011,36
+Port Jefferson,Huntington Station,Port Jefferson Station,2011,367
+Port Jefferson,Jamaica Station,Port Jefferson Station,2011,65
+Port Jefferson,Long Island City,Port Jefferson Station,2011,98
+Port Jefferson,Penn Station,Port Jefferson Station,2011,108
+Port Jefferson,Port Jefferson Station,Penn Station,2011,81
+Port Jefferson,Port Jefferson Station,Long Island City,2011,14
+Port Jefferson,Port Jefferson Station,Jamaica Storage Yard,2011,1
+Port Jefferson,Port Jefferson Station,Jamaica Station,2011,13
+Port Jefferson,Port Jefferson Station,Huntington Station,2011,212
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2011,80
+Port Jefferson,Port Jefferson Station,Hicksville Station,2011,102
+Port Jefferson,Stony Brook Station,Huntington Station,2011,25
+Port Washington,Great Neck Station,Penn Station,2011,160
+Port Washington,Little Neck Station,Penn Station,2011,35
+Port Washington,Penn Station,Port Washington Station,2011,391
+Port Washington,Penn Station,Great Neck Station,2011,175
+Port Washington,Port Washington Station,West Side Yard,2011,6
+Port Washington,Port Washington Station,Penn Station,2011,647
+Port Washington,West Side Yard,Port Washington Station,2011,1
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2011,21
+Ronk. (greenpt.),Bethpage Station,Penn Station,2011,40
+Ronk. (greenpt.),Central Islip Station,Penn Station,2011,15
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2011,10
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2011,76
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2011,47
+Ronk. (greenpt.),Hicksville Station,Penn Station,2011,6
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2011,16
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2011,904
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2011,28
+Ronk. (greenpt.),Penn Station,Central Islip Station,2011,3
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2011,39
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2011,33
+Ronk. (greenpt.),Ronkonkoma Station,West Side Yard,2011,5
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2011,16
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2011,938
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2011,61
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2011,33
+Ronk. (greenpt.),West Side Yard,Ronkonkoma Station,2011,4
+West Hempstead,Atlantic Terminal,West Hempstead Station,2011,88
+West Hempstead,Jamaica Station,West Hempstead Station,2011,19
+West Hempstead,Jamaica Station,Atlantic Terminal,2011,14
+West Hempstead,Valley Stream Station,West Hempstead Station,2011,69
+West Hempstead,West Hempstead Station,Valley Stream Station,2011,15
+West Hempstead,West Hempstead Station,Penn Station,2011,30
+West Hempstead,West Hempstead Station,Jamaica Station,2011,15
+West Hempstead,West Hempstead Station,Atlantic Terminal,2011,36
+Babylon,Atlantic Terminal,Jamaica Station,2012,4
+Babylon,Atlantic Terminal,Babylon Station,2012,110
+Babylon,Babylon Station,Penn Station,2012,1248
+Babylon,Babylon Station,Jamaica Station,2012,6
+Babylon,Babylon Station,Atlantic Terminal,2012,21
+Babylon,Freeport Station,Penn Station,2012,51
+Babylon,Freeport Station,Jamaica Station,2012,3
+Babylon,Freeport Station,Atlantic Terminal,2012,3
+Babylon,Lindenhurst Station,Penn Station,2012,15
+Babylon,Massapequa Park Station,Penn Station,2012,29
+Babylon,Massapequa Park Station,Atlantic Terminal,2012,3
+Babylon,Merrick Station,Penn Station,2012,17
+Babylon,Penn Station,Wantagh Station,2012,101
+Babylon,Penn Station,Seaford Station,2012,32
+Babylon,Penn Station,Montauk Station,2012,8
+Babylon,Penn Station,Massapequa Park Station,2012,25
+Babylon,Penn Station,Jamaica Station,2012,2
+Babylon,Penn Station,Freeport Station,2012,77
+Babylon,Penn Station,Babylon Station,2012,1035
+Babylon,Speonk Station,Jamaica Station,2012,1
+Babylon,Speonk Station,Hunterspoint Ave.,2012,1
+Babylon,Wantagh Station,Penn Station,2012,29
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2012,204
+Far Rockaway,Far Rockaway Station,Valley Stream Station,2012,1
+Far Rockaway,Far Rockaway Station,Penn Station,2012,115
+Far Rockaway,Far Rockaway Station,Jamaica Station,2012,11
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2012,178
+Far Rockaway,Jamaica Station,Far Rockaway Station,2012,15
+Far Rockaway,Jamaica Station,Atlantic Terminal,2012,22
+Far Rockaway,Penn Station,Far Rockaway Station,2012,49
+Far Rockaway,Valley Stream Station,Penn Station,2012,19
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2012,7
+Hempstead,Atlantic Terminal,Hempstead Station,2012,215
+Hempstead,Hempstead Station,Penn Station,2012,74
+Hempstead,Hempstead Station,Jamaica Station,2012,26
+Hempstead,Hempstead Station,Atlantic Terminal,2012,155
+Hempstead,Jamaica Station,Hempstead Station,2012,36
+Hempstead,Jamaica Station,Bellmont Race Track,2012,1
+Hempstead,Penn Station,Hempstead Station,2012,82
+Hempstead,Penn Station,Bellmont Race Track,2012,2
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2012,19
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2012,9
+Hunt. Hicks.,Hicksville Station,Penn Station,2012,51
+Hunt. Hicks.,Huntington Station,Penn Station,2012,781
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2012,5
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2012,19
+Hunt. Hicks.,Jamaica Station,Huntington Station,2012,6
+Hunt. Hicks.,Penn Station,Jamaica Station,2012,3
+Hunt. Hicks.,Penn Station,Huntington Station,2012,813
+Hunt. Hicks.,Penn Station,Hicksville Station,2012,70
+Hunt. Hicks.,Westbury Station,Penn Station,2012,26
+Long Beach,Atlantic Terminal,Lynbrook Station,2012,1
+Long Beach,Atlantic Terminal,Long Beach Station,2012,90
+Long Beach,Jamaica Station,Long Beach Station,2012,8
+Long Beach,Jamaica Station,Atlantic Terminal,2012,9
+Long Beach,Long Beach Station,Penn Station,2012,332
+Long Beach,Long Beach Station,Lynbrook Station,2012,4
+Long Beach,Long Beach Station,Jamaica Station,2012,11
+Long Beach,Long Beach Station,Atlantic Terminal,2012,27
+Long Beach,Lynbrook Station,Long Beach Station,2012,7
+Long Beach,Lynbrook Station,Atlantic Terminal,2012,5
+Long Beach,Penn Station,Long Beach Station,2012,227
+Montauk,Amagansett Station,Jamaica Station,2012,3
+Montauk,Atlantic Terminal,Freeport Station,2012,5
+Montauk,Babylon Station,Speonk Station,2012,100
+Montauk,Babylon Station,Patchogue Station,2012,222
+Montauk,Babylon Station,Montauk Station,2012,15
+Montauk,Bay Shore Station,Montauk Station,2012,1
+Montauk,Bridgehampton Station,Jamaica Station,2012,4
+Montauk,Hunterspoint Ave.,Patchogue Station,2012,3
+Montauk,Hunterspoint Ave.,Montauk Station,2012,42
+Montauk,Jamaica Station,Speonk Station,2012,55
+Montauk,Jamaica Station,Patchogue Station,2012,78
+Montauk,Jamaica Station,Montauk Station,2012,164
+Montauk,Long Island City,Patchogue Station,2012,46
+Montauk,Montauk Station,Penn Station,2012,6
+Montauk,Montauk Station,Long Island City,2012,20
+Montauk,Montauk Station,Jamaica Station,2012,198
+Montauk,Montauk Station,Hunterspoint Ave.,2012,3
+Montauk,Montauk Station,Bay Shore Station,2012,2
+Montauk,Montauk Station,Babylon Station,2012,10
+Montauk,Patchogue Station,Jamaica Station,2012,19
+Montauk,Patchogue Station,Babylon Station,2012,157
+Montauk,Penn Station,Speonk Station,2012,36
+Montauk,Penn Station,Babylon Station,2012,2
+Montauk,Southampton Station,Jamaica Station,2012,1
+Montauk,Speonk Station,Penn Station,2012,67
+Montauk,Speonk Station,Mineola Station,2012,2
+Montauk,Speonk Station,Long Island City,2012,12
+Montauk,Speonk Station,Jamaica Station,2012,42
+Montauk,Speonk Station,Hunterspoint Ave.,2012,19
+Montauk,Speonk Station,Bay Shore Station,2012,1
+Montauk,Speonk Station,Babylon Station,2012,51
+Oyster Bay,East Williston Station,Penn Station,2012,11
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2012,39
+Oyster Bay,Jamaica Station,Oyster Bay Station,2012,255
+Oyster Bay,Long Island City,Oyster Bay Station,2012,22
+Oyster Bay,Oyster Bay Station,Penn Station,2012,15
+Oyster Bay,Oyster Bay Station,Mineola Station,2012,4
+Oyster Bay,Oyster Bay Station,Long Island City,2012,28
+Oyster Bay,Oyster Bay Station,Jamaica Station,2012,166
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2012,14
+Oyster Bay,Penn Station,Oyster Bay Station,2012,36
+Port Jefferson,Hicksville Station,Port Jefferson Station,2012,89
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2012,33
+Port Jefferson,Huntington Station,Port Jefferson Station,2012,375
+Port Jefferson,Jamaica Station,Port Jefferson Station,2012,40
+Port Jefferson,Long Island City,Port Jefferson Station,2012,68
+Port Jefferson,Penn Station,Port Jefferson Station,2012,107
+Port Jefferson,Port Jefferson Station,Penn Station,2012,83
+Port Jefferson,Port Jefferson Station,Long Island City,2012,15
+Port Jefferson,Port Jefferson Station,Jamaica Station,2012,4
+Port Jefferson,Port Jefferson Station,Huntington Station,2012,214
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2012,81
+Port Jefferson,Port Jefferson Station,Hicksville Station,2012,149
+Port Jefferson,Stony Brook Station,Huntington Station,2012,11
+Port Washington,Great Neck Station,Penn Station,2012,145
+Port Washington,Little Neck Station,Penn Station,2012,36
+Port Washington,Penn Station,Port Washington Station,2012,426
+Port Washington,Penn Station,Great Neck Station,2012,130
+Port Washington,Port Washington Station,Penn Station,2012,743
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2012,22
+Ronk. (greenpt.),Bethpage Station,Penn Station,2012,31
+Ronk. (greenpt.),Brentwood Station,Penn Station,2012,10
+Ronk. (greenpt.),Central Islip Station,Penn Station,2012,13
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2012,11
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2012,89
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2012,38
+Ronk. (greenpt.),Greenport Station,Riverhead Station,2012,1
+Ronk. (greenpt.),Hicksville Station,Penn Station,2012,5
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2012,15
+Ronk. (greenpt.),Jamaica Station,Penn Station,2012,1
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2012,806
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2012,30
+Ronk. (greenpt.),Penn Station,Brentwood Station,2012,11
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2012,46
+Ronk. (greenpt.),Riverhead Station,Greenport Station,2012,3
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2012,22
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2012,16
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2012,882
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2012,69
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2012,30
+West Hempstead,Atlantic Terminal,West Hempstead Station,2012,129
+West Hempstead,Jamaica Station,West Hempstead Station,2012,33
+West Hempstead,Jamaica Station,Atlantic Terminal,2012,9
+West Hempstead,Valley Stream Station,West Hempstead Station,2012,59
+West Hempstead,West Hempstead Station,Valley Stream Station,2012,8
+West Hempstead,West Hempstead Station,Penn Station,2012,24
+West Hempstead,West Hempstead Station,Jamaica Station,2012,26
+West Hempstead,West Hempstead Station,Hunterspoint Ave.,2012,1
+West Hempstead,West Hempstead Station,Atlantic Terminal,2012,27
+Babylon,Atlantic Terminal,Jamaica Station,2013,5
+Babylon,Atlantic Terminal,Babylon Station,2013,92
+Babylon,Babylon Station,Penn Station,2013,1479
+Babylon,Babylon Station,Atlantic Terminal,2013,31
+Babylon,Freeport Station,Penn Station,2013,141
+Babylon,Lindenhurst Station,Penn Station,2013,14
+Babylon,Massapequa Park Station,Penn Station,2013,54
+Babylon,Massapequa Park Station,Atlantic Terminal,2013,8
+Babylon,Merrick Station,Penn Station,2013,34
+Babylon,Penn Station,Wantagh Station,2013,127
+Babylon,Penn Station,Seaford Station,2013,44
+Babylon,Penn Station,Montauk Station,2013,9
+Babylon,Penn Station,Massapequa Park Station,2013,11
+Babylon,Penn Station,Freeport Station,2013,120
+Babylon,Penn Station,Babylon Station,2013,1148
+Babylon,Penn Station,Amityville Station,2013,1
+Babylon,Wantagh Station,Penn Station,2013,90
+Far Rockaway,Atlantic Terminal,Jamaica Station,2013,8
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2013,191
+Far Rockaway,Far Rockaway Station,Penn Station,2013,176
+Far Rockaway,Far Rockaway Station,Jamaica Station,2013,4
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2013,186
+Far Rockaway,Jamaica Station,Far Rockaway Station,2013,2
+Far Rockaway,Jamaica Station,Atlantic Terminal,2013,36
+Far Rockaway,Penn Station,Far Rockaway Station,2013,66
+Far Rockaway,Valley Stream Station,Penn Station,2013,47
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2013,5
+Hempstead,Atlantic Terminal,Jamaica Station,2013,4
+Hempstead,Atlantic Terminal,Hempstead Station,2013,273
+Hempstead,Bellmont Race Track,Jamaica Station,2013,4
+Hempstead,Hempstead Station,Penn Station,2013,116
+Hempstead,Hempstead Station,Jamaica Station,2013,16
+Hempstead,Hempstead Station,Atlantic Terminal,2013,207
+Hempstead,Jamaica Station,Hempstead Station,2013,6
+Hempstead,Jamaica Station,Bellmont Race Track,2013,3
+Hempstead,Penn Station,Hempstead Station,2013,112
+Hempstead,Penn Station,Bellmont Race Track,2013,4
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2013,46
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2013,29
+Hunt. Hicks.,Hicksville Station,Penn Station,2013,51
+Hunt. Hicks.,Huntington Station,Penn Station,2013,797
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2013,14
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2013,32
+Hunt. Hicks.,Jamaica Station,Huntington Station,2013,19
+Hunt. Hicks.,Penn Station,Jamaica Station,2013,8
+Hunt. Hicks.,Penn Station,Huntington Station,2013,949
+Hunt. Hicks.,Penn Station,Hicksville Station,2013,112
+Hunt. Hicks.,Westbury Station,Penn Station,2013,37
+Long Beach,Atlantic Terminal,Long Beach Station,2013,94
+Long Beach,Jamaica Station,Long Beach Station,2013,8
+Long Beach,Jamaica Station,Atlantic Terminal,2013,6
+Long Beach,Long Beach Station,Penn Station,2013,542
+Long Beach,Long Beach Station,Jamaica Station,2013,6
+Long Beach,Long Beach Station,Atlantic Terminal,2013,39
+Long Beach,Penn Station,Long Beach Station,2013,302
+Montauk,Babylon Station,Speonk Station,2013,98
+Montauk,Babylon Station,Patchogue Station,2013,219
+Montauk,Babylon Station,Montauk Station,2013,18
+Montauk,Babylon Station,Jamaica Station,2013,1
+Montauk,Bridgehampton Station,Jamaica Station,2013,2
+Montauk,Hunterspoint Ave.,Montauk Station,2013,24
+Montauk,Jamaica Station,Speonk Station,2013,43
+Montauk,Jamaica Station,Sayville Station,2013,3
+Montauk,Jamaica Station,Patchogue Station,2013,92
+Montauk,Jamaica Station,Montauk Station,2013,208
+Montauk,Jamaica Station,Babylon Station,2013,3
+Montauk,Long Island City,Patchogue Station,2013,32
+Montauk,Long Island City,Montauk Station,2013,2
+Montauk,Montauk Station,Penn Station,2013,3
+Montauk,Montauk Station,Long Island City,2013,38
+Montauk,Montauk Station,Jamaica Station,2013,234
+Montauk,Montauk Station,Hunterspoint Ave.,2013,3
+Montauk,Montauk Station,Babylon Station,2013,12
+Montauk,Patchogue Station,Montauk Station,2013,1
+Montauk,Patchogue Station,Jamaica Station,2013,23
+Montauk,Patchogue Station,Babylon Station,2013,154
+Montauk,Penn Station,Speonk Station,2013,31
+Montauk,Penn Station,Montauk Station,2013,21
+Montauk,Sayville Station,Babylon Station,2013,2
+Montauk,Speonk Station,Penn Station,2013,101
+Montauk,Speonk Station,Montauk Station,2013,2
+Montauk,Speonk Station,Long Island City,2013,3
+Montauk,Speonk Station,Jamaica Station,2013,60
+Montauk,Speonk Station,Hunterspoint Ave.,2013,26
+Montauk,Speonk Station,Babylon Station,2013,53
+Oyster Bay,East Williston Station,Penn Station,2013,21
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2013,46
+Oyster Bay,Jamaica Station,Oyster Bay Station,2013,300
+Oyster Bay,Jamaica Station,Locust Valley Station,2013,3
+Oyster Bay,Locust Valley Station,Jamaica Station,2013,4
+Oyster Bay,Long Island City,Oyster Bay Station,2013,25
+Oyster Bay,Oyster Bay Station,Penn Station,2013,14
+Oyster Bay,Oyster Bay Station,Mineola Station,2013,2
+Oyster Bay,Oyster Bay Station,Long Island City,2013,46
+Oyster Bay,Oyster Bay Station,Jamaica Station,2013,222
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2013,18
+Oyster Bay,Penn Station,Oyster Bay Station,2013,99
+Port Jefferson,Hicksville Station,Port Jefferson Station,2013,92
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2013,43
+Port Jefferson,Huntington Station,Port Jefferson Station,2013,259
+Port Jefferson,Huntington Station,Hicksville Station,2013,1
+Port Jefferson,Jamaica Station,Port Jefferson Station,2013,62
+Port Jefferson,Jamaica Station,Huntington Station,2013,1
+Port Jefferson,Long Island City,Port Jefferson Station,2013,71
+Port Jefferson,Penn Station,Port Jefferson Station,2013,96
+Port Jefferson,Port Jefferson Station,Penn Station,2013,70
+Port Jefferson,Port Jefferson Station,Long Island City,2013,19
+Port Jefferson,Port Jefferson Station,Jamaica Station,2013,13
+Port Jefferson,Port Jefferson Station,Huntington Station,2013,210
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2013,109
+Port Jefferson,Port Jefferson Station,Hicksville Station,2013,67
+Port Jefferson,Stony Brook Station,Huntington Station,2013,16
+Port Washington,Great Neck Station,Penn Station,2013,208
+Port Washington,Little Neck Station,Penn Station,2013,54
+Port Washington,Penn Station,Port Washington Station,2013,560
+Port Washington,Penn Station,Great Neck Station,2013,181
+Port Washington,Port Washington Station,Penn Station,2013,901
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2013,43
+Ronk. (greenpt.),Bethpage Station,Penn Station,2013,60
+Ronk. (greenpt.),Central Islip Station,Penn Station,2013,16
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2013,4
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2013,144
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2013,73
+Ronk. (greenpt.),Hicksville Station,Penn Station,2013,23
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2013,17
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2013,805
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2013,36
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2013,25
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2013,16
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2013,16
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2013,1066
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2013,89
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2013,21
+West Hempstead,Atlantic Terminal,West Hempstead Station,2013,141
+West Hempstead,Jamaica Station,West Hempstead Station,2013,30
+West Hempstead,Jamaica Station,Atlantic Terminal,2013,33
+West Hempstead,Valley Stream Station,West Hempstead Station,2013,75
+West Hempstead,West Hempstead Station,Valley Stream Station,2013,8
+West Hempstead,West Hempstead Station,Penn Station,2013,52
+West Hempstead,West Hempstead Station,Jamaica Station,2013,10
+West Hempstead,West Hempstead Station,Atlantic Terminal,2013,31
+Babylon,Atlantic Terminal,Jamaica Station,2014,3
+Babylon,Atlantic Terminal,Babylon Station,2014,226
+Babylon,Babylon Station,Penn Station,2014,1613
+Babylon,Babylon Station,Freeport Station,2014,6
+Babylon,Babylon Station,Atlantic Terminal,2014,34
+Babylon,Freeport Station,Penn Station,2014,134
+Babylon,Jamaica Station,Penn Station,2014,13
+Babylon,Lindenhurst Station,Penn Station,2014,13
+Babylon,Massapequa Park Station,Penn Station,2014,60
+Babylon,Massapequa Park Station,Atlantic Terminal,2014,4
+Babylon,Merrick Station,Penn Station,2014,36
+Babylon,Penn Station,Wantagh Station,2014,191
+Babylon,Penn Station,Seaford Station,2014,76
+Babylon,Penn Station,Montauk Station,2014,7
+Babylon,Penn Station,Massapequa Park Station,2014,21
+Babylon,Penn Station,Jamaica Station,2014,2
+Babylon,Penn Station,Freeport Station,2014,199
+Babylon,Penn Station,Babylon Station,2014,1481
+Babylon,Speonk Station,Jamaica Station,2014,3
+Babylon,Wantagh Station,Penn Station,2014,74
+Far Rockaway,Atlantic Terminal,Jamaica Station,2014,2
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2014,286
+Far Rockaway,Far Rockaway Station,Valley Stream Station,2014,3
+Far Rockaway,Far Rockaway Station,Penn Station,2014,227
+Far Rockaway,Far Rockaway Station,Jamaica Station,2014,5
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2014,264
+Far Rockaway,Jamaica Station,Penn Station,2014,1
+Far Rockaway,Jamaica Station,Far Rockaway Station,2014,9
+Far Rockaway,Jamaica Station,Atlantic Terminal,2014,51
+Far Rockaway,Penn Station,Far Rockaway Station,2014,62
+Far Rockaway,Valley Stream Station,Penn Station,2014,54
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2014,6
+Far Rockaway,Valley Stream Station,Atlantic Terminal,2014,1
+Hempstead,Atlantic Terminal,Jamaica Station,2014,2
+Hempstead,Atlantic Terminal,Hempstead Station,2014,355
+Hempstead,Bellmont Race Track,Jamaica Station,2014,2
+Hempstead,Garden City Station,Atlantic Terminal,2014,1
+Hempstead,Hempstead Station,Penn Station,2014,140
+Hempstead,Hempstead Station,Jamaica Station,2014,29
+Hempstead,Hempstead Station,Atlantic Terminal,2014,311
+Hempstead,Jamaica Station,Hempstead Station,2014,11
+Hempstead,Jamaica Station,Garden City Station,2014,1
+Hempstead,Jamaica Station,Bellmont Race Track,2014,1
+Hempstead,Penn Station,Hempstead Station,2014,179
+Hempstead,Penn Station,Bellmont Race Track,2014,1
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2014,74
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2014,36
+Hunt. Hicks.,Hicksville Station,Penn Station,2014,47
+Hunt. Hicks.,Huntington Station,Penn Station,2014,1136
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2014,10
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2014,28
+Hunt. Hicks.,Jamaica Station,Huntington Station,2014,14
+Hunt. Hicks.,Penn Station,Jamaica Station,2014,12
+Hunt. Hicks.,Penn Station,Huntington Station,2014,1479
+Hunt. Hicks.,Penn Station,Hicksville Station,2014,131
+Hunt. Hicks.,Westbury Station,Penn Station,2014,23
+Long Beach,Atlantic Terminal,Long Beach Station,2014,158
+Long Beach,Jamaica Station,Long Beach Station,2014,13
+Long Beach,Jamaica Station,Atlantic Terminal,2014,5
+Long Beach,Long Beach Station,Penn Station,2014,651
+Long Beach,Long Beach Station,Jamaica Station,2014,7
+Long Beach,Long Beach Station,Atlantic Terminal,2014,55
+Long Beach,Penn Station,Long Beach Station,2014,496
+Montauk,Babylon Station,Speonk Station,2014,113
+Montauk,Babylon Station,Patchogue Station,2014,250
+Montauk,Babylon Station,Montauk Station,2014,21
+Montauk,Bridgehampton Station,Jamaica Station,2014,2
+Montauk,Hunterspoint Ave.,Montauk Station,2014,36
+Montauk,Jamaica Station,Speonk Station,2014,66
+Montauk,Jamaica Station,Patchogue Station,2014,86
+Montauk,Jamaica Station,Montauk Station,2014,195
+Montauk,Long Island City,Patchogue Station,2014,77
+Montauk,Montauk Station,Penn Station,2014,2
+Montauk,Montauk Station,Long Island City,2014,58
+Montauk,Montauk Station,Jamaica Station,2014,256
+Montauk,Montauk Station,Babylon Station,2014,21
+Montauk,Patchogue Station,Jamaica Station,2014,29
+Montauk,Patchogue Station,Babylon Station,2014,182
+Montauk,Penn Station,Speonk Station,2014,49
+Montauk,Penn Station,Montauk Station,2014,13
+Montauk,Speonk Station,Penn Station,2014,95
+Montauk,Speonk Station,Long Island City,2014,11
+Montauk,Speonk Station,Jamaica Station,2014,69
+Montauk,Speonk Station,Hunterspoint Ave.,2014,31
+Montauk,Speonk Station,Babylon Station,2014,45
+Oyster Bay,East Williston Station,Penn Station,2014,23
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2014,59
+Oyster Bay,Jamaica Station,Oyster Bay Station,2014,297
+Oyster Bay,Long Island City,Oyster Bay Station,2014,39
+Oyster Bay,Oyster Bay Station,Penn Station,2014,17
+Oyster Bay,Oyster Bay Station,Mineola Station,2014,3
+Oyster Bay,Oyster Bay Station,Long Island City,2014,40
+Oyster Bay,Oyster Bay Station,Jamaica Station,2014,218
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2014,27
+Oyster Bay,Penn Station,Oyster Bay Station,2014,106
+Port Jefferson,Hicksville Station,Port Jefferson Station,2014,98
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2014,79
+Port Jefferson,Huntington Station,Port Jefferson Station,2014,385
+Port Jefferson,Jamaica Station,Port Jefferson Station,2014,94
+Port Jefferson,Long Island City,Port Jefferson Station,2014,101
+Port Jefferson,Penn Station,Port Jefferson Station,2014,130
+Port Jefferson,Penn Station,Huntington Station,2014,2
+Port Jefferson,Port Jefferson Station,Penn Station,2014,100
+Port Jefferson,Port Jefferson Station,Long Island City,2014,15
+Port Jefferson,Port Jefferson Station,Jamaica Station,2014,42
+Port Jefferson,Port Jefferson Station,Huntington Station,2014,276
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2014,151
+Port Jefferson,Port Jefferson Station,Hicksville Station,2014,149
+Port Jefferson,Stony Brook Station,Huntington Station,2014,22
+Port Washington,Great Neck Station,Penn Station,2014,270
+Port Washington,Little Neck Station,Penn Station,2014,36
+Port Washington,Penn Station,Port Washington Station,2014,899
+Port Washington,Penn Station,Great Neck Station,2014,235
+Port Washington,Port Washington Station,Penn Station,2014,1102
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2014,74
+Ronk. (greenpt.),Bethpage Station,Penn Station,2014,68
+Ronk. (greenpt.),Central Islip Station,Penn Station,2014,27
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2014,9
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2014,135
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2014,35
+Ronk. (greenpt.),Hicksville Station,Penn Station,2014,20
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2014,17
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2014,1001
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2014,80
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2014,29
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2014,15
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2014,14
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2014,1154
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2014,72
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2014,32
+West Hempstead,Atlantic Terminal,West Hempstead Station,2014,192
+West Hempstead,Jamaica Station,West Hempstead Station,2014,33
+West Hempstead,Jamaica Station,Atlantic Terminal,2014,24
+West Hempstead,Valley Stream Station,West Hempstead Station,2014,118
+West Hempstead,West Hempstead Station,Valley Stream Station,2014,6
+West Hempstead,West Hempstead Station,Penn Station,2014,45
+West Hempstead,West Hempstead Station,Jamaica Station,2014,15
+West Hempstead,West Hempstead Station,Atlantic Terminal,2014,27
+Babylon,Atlantic Terminal,Jamaica Station,2015,9
+Babylon,Atlantic Terminal,Babylon Station,2015,169
+Babylon,Babylon Station,Penn Station,2015,1610
+Babylon,Babylon Station,Atlantic Terminal,2015,53
+Babylon,Freeport Station,Penn Station,2015,152
+Babylon,Jamaica Station,Penn Station,2015,27
+Babylon,Jamaica Station,Montauk Station,2015,24
+Babylon,Lindenhurst Station,Penn Station,2015,24
+Babylon,Massapequa Park Station,Penn Station,2015,88
+Babylon,Massapequa Park Station,Atlantic Terminal,2015,8
+Babylon,Merrick Station,Penn Station,2015,55
+Babylon,Penn Station,Wantagh Station,2015,166
+Babylon,Penn Station,Seaford Station,2015,68
+Babylon,Penn Station,Montauk Station,2015,11
+Babylon,Penn Station,Massapequa Park Station,2015,10
+Babylon,Penn Station,Freeport Station,2015,223
+Babylon,Penn Station,Babylon Station,2015,1289
+Babylon,Wantagh Station,Penn Station,2015,101
+Far Rockaway,Atlantic Terminal,Jamaica Station,2015,1
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2015,301
+Far Rockaway,Far Rockaway Station,Valley Stream Station,2015,3
+Far Rockaway,Far Rockaway Station,Penn Station,2015,260
+Far Rockaway,Far Rockaway Station,Jamaica Station,2015,5
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2015,242
+Far Rockaway,Jamaica Station,Far Rockaway Station,2015,7
+Far Rockaway,Jamaica Station,Atlantic Terminal,2015,39
+Far Rockaway,Penn Station,Far Rockaway Station,2015,68
+Far Rockaway,Valley Stream Station,Penn Station,2015,60
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2015,3
+Hempstead,Atlantic Terminal,Jamaica Station,2015,1
+Hempstead,Atlantic Terminal,Hempstead Station,2015,377
+Hempstead,Atlantic Terminal,Garden City Station,2015,1
+Hempstead,Bellmont Race Track,Jamaica Station,2015,1
+Hempstead,Hempstead Station,Penn Station,2015,153
+Hempstead,Hempstead Station,Jamaica Station,2015,18
+Hempstead,Hempstead Station,Atlantic Terminal,2015,351
+Hempstead,Jamaica Station,Hempstead Station,2015,5
+Hempstead,Penn Station,Hempstead Station,2015,190
+Hempstead,Penn Station,Bellmont Race Track,2015,2
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2015,48
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2015,48
+Hunt. Hicks.,Hicksville Station,Penn Station,2015,74
+Hunt. Hicks.,Huntington Station,Penn Station,2015,1216
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2015,15
+Hunt. Hicks.,Huntington Station,Hicksville Station,2015,1
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2015,34
+Hunt. Hicks.,Jamaica Station,Penn Station,2015,2
+Hunt. Hicks.,Jamaica Station,Huntington Station,2015,23
+Hunt. Hicks.,Penn Station,Jamaica Station,2015,17
+Hunt. Hicks.,Penn Station,Huntington Station,2015,1614
+Hunt. Hicks.,Penn Station,Hicksville Station,2015,146
+Hunt. Hicks.,Westbury Station,Penn Station,2015,48
+Long Beach,Atlantic Terminal,Valley Stream Station,2015,1
+Long Beach,Atlantic Terminal,Long Beach Station,2015,164
+Long Beach,Jamaica Station,Long Beach Station,2015,10
+Long Beach,Jamaica Station,Atlantic Terminal,2015,3
+Long Beach,Long Beach Station,Penn Station,2015,655
+Long Beach,Long Beach Station,Jamaica Station,2015,3
+Long Beach,Long Beach Station,Atlantic Terminal,2015,76
+Long Beach,Penn Station,Valley Stream Station,2015,3
+Long Beach,Penn Station,Long Beach Station,2015,560
+Long Beach,Valley Stream Station,Penn Station,2015,5
+Montauk,Babylon Station,Speonk Station,2015,126
+Montauk,Babylon Station,Patchogue Station,2015,203
+Montauk,Babylon Station,Montauk Station,2015,27
+Montauk,Bridgehampton Station,Jamaica Station,2015,2
+Montauk,Freeport Station,Penn Station,2015,1
+Montauk,Hunterspoint Ave.,Montauk Station,2015,37
+Montauk,Jamaica Station,Speonk Station,2015,49
+Montauk,Jamaica Station,Patchogue Station,2015,101
+Montauk,Jamaica Station,Montauk Station,2015,223
+Montauk,Long Island City,Patchogue Station,2015,79
+Montauk,Montauk Station,Penn Station,2015,2
+Montauk,Montauk Station,Long Island City,2015,69
+Montauk,Montauk Station,Jamaica Station,2015,216
+Montauk,Montauk Station,Babylon Station,2015,17
+Montauk,Patchogue Station,Jamaica Station,2015,22
+Montauk,Patchogue Station,Babylon Station,2015,184
+Montauk,Penn Station,Speonk Station,2015,39
+Montauk,Penn Station,Montauk Station,2015,21
+Montauk,Speonk Station,Penn Station,2015,86
+Montauk,Speonk Station,Long Island City,2015,10
+Montauk,Speonk Station,Jamaica Station,2015,69
+Montauk,Speonk Station,Hunterspoint Ave.,2015,51
+Montauk,Speonk Station,Babylon Station,2015,52
+Oyster Bay,East Williston Station,Penn Station,2015,24
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2015,62
+Oyster Bay,Jamaica Station,Oyster Bay Station,2015,357
+Oyster Bay,Jamaica Station,Locust Valley Station,2015,1
+Oyster Bay,Long Island City,Oyster Bay Station,2015,63
+Oyster Bay,Mineola Station,Penn Station,2015,5
+Oyster Bay,Oyster Bay Station,Penn Station,2015,32
+Oyster Bay,Oyster Bay Station,Mineola Station,2015,3
+Oyster Bay,Oyster Bay Station,Long Island City,2015,24
+Oyster Bay,Oyster Bay Station,Jamaica Station,2015,208
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2015,34
+Oyster Bay,Penn Station,Oyster Bay Station,2015,95
+Port Jefferson,Hicksville Station,Port Jefferson Station,2015,93
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2015,90
+Port Jefferson,Huntington Station,Port Jefferson Station,2015,450
+Port Jefferson,Jamaica Station,Port Jefferson Station,2015,74
+Port Jefferson,Jamaica Station,Huntington Station,2015,2
+Port Jefferson,Long Island City,Port Jefferson Station,2015,111
+Port Jefferson,Penn Station,Port Jefferson Station,2015,91
+Port Jefferson,Port Jefferson Station,Penn Station,2015,104
+Port Jefferson,Port Jefferson Station,Long Island City,2015,40
+Port Jefferson,Port Jefferson Station,Jamaica Station,2015,30
+Port Jefferson,Port Jefferson Station,Huntington Station,2015,264
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2015,152
+Port Jefferson,Port Jefferson Station,Hicksville Station,2015,173
+Port Jefferson,Stony Brook Station,Huntington Station,2015,20
+Port Washington,Great Neck Station,Penn Station,2015,256
+Port Washington,Little Neck Station,Penn Station,2015,33
+Port Washington,Penn Station,Port Washington Station,2015,922
+Port Washington,Penn Station,Great Neck Station,2015,285
+Port Washington,Port Washington Station,Penn Station,2015,1460
+Port Washington,Shea Stadium Station,Penn Station,2015,2
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2015,66
+Ronk. (greenpt.),Bethpage Station,Penn Station,2015,65
+Ronk. (greenpt.),Brentwood Station,Penn Station,2015,4
+Ronk. (greenpt.),Central Islip Station,Penn Station,2015,34
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2015,13
+Ronk. (greenpt.),Farmingdale Station,Ronkonkoma Station,2015,4
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2015,194
+Ronk. (greenpt.),Farmingdale Station,Atlantic Terminal,2015,1
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2015,43
+Ronk. (greenpt.),Hicksville Station,Ronkonkoma Station,2015,1
+Ronk. (greenpt.),Hicksville Station,Penn Station,2015,20
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2015,24
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2015,1068
+Ronk. (greenpt.),Penn Station,Mineola Station,2015,1
+Ronk. (greenpt.),Penn Station,Jamaica Station,2015,3
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2015,68
+Ronk. (greenpt.),Penn Station,Central Islip Station,2015,8
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2015,27
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2015,19
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2015,26
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2015,1333
+Ronk. (greenpt.),Ronkonkoma Station,Hicksville Station,2015,1
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2015,88
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2015,53
+West Hempstead,Atlantic Terminal,West Hempstead Station,2015,167
+West Hempstead,Jamaica Station,West Hempstead Station,2015,22
+West Hempstead,Jamaica Station,Atlantic Terminal,2015,33
+West Hempstead,Valley Stream Station,West Hempstead Station,2015,162
+West Hempstead,West Hempstead Station,Valley Stream Station,2015,19
+West Hempstead,West Hempstead Station,Penn Station,2015,49
+West Hempstead,West Hempstead Station,Jamaica Station,2015,21
+West Hempstead,West Hempstead Station,Atlantic Terminal,2015,36
+Babylon,Atlantic Terminal,Jamaica Station,2016,6
+Babylon,Atlantic Terminal,Babylon Station,2016,157
+Babylon,Babylon Station,Wantagh Station,2016,1
+Babylon,Babylon Station,Penn Station,2016,1474
+Babylon,Babylon Station,Atlantic Terminal,2016,45
+Babylon,Freeport Station,Penn Station,2016,87
+Babylon,Jamaica Station,Penn Station,2016,22
+Babylon,Jamaica Station,Montauk Station,2016,18
+Babylon,Lindenhurst Station,Penn Station,2016,20
+Babylon,Massapequa Park Station,Penn Station,2016,61
+Babylon,Massapequa Park Station,Atlantic Terminal,2016,7
+Babylon,Merrick Station,Penn Station,2016,29
+Babylon,Penn Station,Wantagh Station,2016,155
+Babylon,Penn Station,Seaford Station,2016,48
+Babylon,Penn Station,Montauk Station,2016,7
+Babylon,Penn Station,Massapequa Park Station,2016,14
+Babylon,Penn Station,Freeport Station,2016,157
+Babylon,Penn Station,Babylon Station,2016,1556
+Babylon,Rockville Center Station,Penn Station,2016,1
+Babylon,Wantagh Station,Penn Station,2016,40
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2016,218
+Far Rockaway,Far Rockaway Station,Valley Stream Station,2016,1
+Far Rockaway,Far Rockaway Station,Penn Station,2016,173
+Far Rockaway,Far Rockaway Station,Jamaica Station,2016,4
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2016,239
+Far Rockaway,Jamaica Station,Penn Station,2016,6
+Far Rockaway,Jamaica Station,Far Rockaway Station,2016,4
+Far Rockaway,Jamaica Station,Atlantic Terminal,2016,33
+Far Rockaway,Penn Station,Far Rockaway Station,2016,34
+Far Rockaway,Valley Stream Station,Penn Station,2016,39
+Far Rockaway,Valley Stream Station,Far Rockaway Station,2016,2
+Hempstead,Atlantic Terminal,Hempstead Station,2016,315
+Hempstead,Atlantic Terminal,Garden City Station,2016,2
+Hempstead,Bellmont Race Track,Penn Station,2016,1
+Hempstead,Hempstead Station,Penn Station,2016,80
+Hempstead,Hempstead Station,Jamaica Station,2016,16
+Hempstead,Hempstead Station,Atlantic Terminal,2016,287
+Hempstead,Jamaica Station,Hempstead Station,2016,10
+Hempstead,Jamaica Station,Bellmont Race Track,2016,2
+Hempstead,Penn Station,Hempstead Station,2016,152
+Hempstead,Penn Station,Bellmont Race Track,2016,6
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2016,24
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2016,24
+Hunt. Hicks.,Hicksville Station,Penn Station,2016,49
+Hunt. Hicks.,Hicksville Station,Huntington Station,2016,1
+Hunt. Hicks.,Huntington Station,Penn Station,2016,945
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2016,20
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2016,27
+Hunt. Hicks.,Jamaica Station,Huntington Station,2016,13
+Hunt. Hicks.,Penn Station,Jamaica Station,2016,10
+Hunt. Hicks.,Penn Station,Huntington Station,2016,1269
+Hunt. Hicks.,Penn Station,Hicksville Station,2016,116
+Hunt. Hicks.,Westbury Station,Penn Station,2016,37
+Long Beach,Atlantic Terminal,Long Beach Station,2016,109
+Long Beach,Jamaica Station,Long Beach Station,2016,3
+Long Beach,Jamaica Station,Atlantic Terminal,2016,6
+Long Beach,Long Beach Station,Penn Station,2016,524
+Long Beach,Long Beach Station,Jamaica Station,2016,8
+Long Beach,Long Beach Station,Atlantic Terminal,2016,56
+Long Beach,Penn Station,Long Beach Station,2016,398
+Montauk,Babylon Station,Speonk Station,2016,122
+Montauk,Babylon Station,Patchogue Station,2016,259
+Montauk,Babylon Station,Montauk Station,2016,29
+Montauk,Babylon Station,Jamaica Station,2016,1
+Montauk,Bridgehampton Station,Jamaica Station,2016,1
+Montauk,Hunterspoint Ave.,Montauk Station,2016,21
+Montauk,Jamaica Station,Speonk Station,2016,46
+Montauk,Jamaica Station,Patchogue Station,2016,106
+Montauk,Jamaica Station,Montauk Station,2016,187
+Montauk,Jamaica Station,Babylon Station,2016,4
+Montauk,Long Island City,Patchogue Station,2016,39
+Montauk,Montauk Station,Speonk Station,2016,16
+Montauk,Montauk Station,Penn Station,2016,1
+Montauk,Montauk Station,Long Island City,2016,112
+Montauk,Montauk Station,Jamaica Station,2016,185
+Montauk,Montauk Station,Hunterspoint Ave.,2016,1
+Montauk,Montauk Station,Babylon Station,2016,28
+Montauk,Patchogue Station,Jamaica Station,2016,11
+Montauk,Patchogue Station,Babylon Station,2016,173
+Montauk,Penn Station,Speonk Station,2016,24
+Montauk,Penn Station,Montauk Station,2016,17
+Montauk,Speonk Station,Penn Station,2016,85
+Montauk,Speonk Station,Montauk Station,2016,17
+Montauk,Speonk Station,Long Island City,2016,6
+Montauk,Speonk Station,Jamaica Station,2016,82
+Montauk,Speonk Station,Hunterspoint Ave.,2016,41
+Montauk,Speonk Station,Babylon Station,2016,41
+Oyster Bay,East Williston Station,Penn Station,2016,22
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2016,57
+Oyster Bay,Jamaica Station,Oyster Bay Station,2016,354
+Oyster Bay,Jamaica Station,Locust Valley Station,2016,6
+Oyster Bay,Long Island City,Oyster Bay Station,2016,40
+Oyster Bay,Oyster Bay Station,Penn Station,2016,13
+Oyster Bay,Oyster Bay Station,Mineola Station,2016,8
+Oyster Bay,Oyster Bay Station,Long Island City,2016,30
+Oyster Bay,Oyster Bay Station,Jamaica Station,2016,219
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2016,36
+Oyster Bay,Penn Station,Oyster Bay Station,2016,89
+Port Jefferson,Hicksville Station,Port Jefferson Station,2016,107
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2016,52
+Port Jefferson,Huntington Station,Port Jefferson Station,2016,328
+Port Jefferson,Jamaica Station,Port Jefferson Station,2016,98
+Port Jefferson,Jamaica Station,Huntington Station,2016,1
+Port Jefferson,Long Island City,Port Jefferson Station,2016,68
+Port Jefferson,Penn Station,Port Jefferson Station,2016,62
+Port Jefferson,Port Jefferson Station,Penn Station,2016,64
+Port Jefferson,Port Jefferson Station,Long Island City,2016,31
+Port Jefferson,Port Jefferson Station,Jamaica Station,2016,29
+Port Jefferson,Port Jefferson Station,Huntington Station,2016,247
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2016,115
+Port Jefferson,Port Jefferson Station,Hicksville Station,2016,157
+Port Jefferson,Stony Brook Station,Huntington Station,2016,14
+Port Washington,Great Neck Station,Penn Station,2016,213
+Port Washington,Little Neck Station,Penn Station,2016,21
+Port Washington,Penn Station,Port Washington Station,2016,804
+Port Washington,Penn Station,Great Neck Station,2016,264
+Port Washington,Port Washington Station,Penn Station,2016,1182
+Port Washington,Shea Stadium Station,Penn Station,2016,2
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2016,52
+Ronk. (greenpt.),Bethpage Station,Penn Station,2016,54
+Ronk. (greenpt.),Central Islip Station,Penn Station,2016,33
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2016,4
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2016,170
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2016,36
+Ronk. (greenpt.),Greenport Station,Jamaica Station,2016,2
+Ronk. (greenpt.),Hicksville Station,Ronkonkoma Station,2016,1
+Ronk. (greenpt.),Hicksville Station,Penn Station,2016,19
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2016,16
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2016,927
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2016,50
+Ronk. (greenpt.),Penn Station,Central Islip Station,2016,17
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2016,18
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2016,9
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2016,20
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2016,1196
+Ronk. (greenpt.),Ronkonkoma Station,Hicksville Station,2016,1
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2016,73
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2016,52
+West Hempstead,Atlantic Terminal,West Hempstead Station,2016,121
+West Hempstead,Jamaica Station,West Hempstead Station,2016,12
+West Hempstead,Jamaica Station,Atlantic Terminal,2016,29
+West Hempstead,Valley Stream Station,West Hempstead Station,2016,86
+West Hempstead,West Hempstead Station,Valley Stream Station,2016,23
+West Hempstead,West Hempstead Station,Penn Station,2016,35
+West Hempstead,West Hempstead Station,Jamaica Station,2016,10
+West Hempstead,West Hempstead Station,Atlantic Terminal,2016,34
+Babylon,Atlantic Terminal,Jamaica Station,2017,7
+Babylon,Atlantic Terminal,Babylon Station,2017,144
+Babylon,Babylon Station,Penn Station,2017,1872
+Babylon,Babylon Station,Atlantic Terminal,2017,52
+Babylon,Freeport Station,Penn Station,2017,144
+Babylon,Freeport Station,Atlantic Terminal,2017,8
+Babylon,Jamaica Station,Penn Station,2017,19
+Babylon,Lindenhurst Station,Penn Station,2017,27
+Babylon,Massapequa Park Station,Penn Station,2017,58
+Babylon,Massapequa Park Station,Atlantic Terminal,2017,9
+Babylon,Merrick Station,Penn Station,2017,26
+Babylon,Penn Station,Wantagh Station,2017,239
+Babylon,Penn Station,Seaford Station,2017,86
+Babylon,Penn Station,Montauk Station,2017,9
+Babylon,Penn Station,Massapequa Park Station,2017,24
+Babylon,Penn Station,Jamaica Station,2017,1
+Babylon,Penn Station,Freeport Station,2017,198
+Babylon,Penn Station,Babylon Station,2017,1595
+Babylon,Wantagh Station,Penn Station,2017,56
+Babylon,Wantagh Station,Jamaica Station,2017,1
+Far Rockaway,Atlantic Terminal,Far Rockaway Station,2017,236
+Far Rockaway,Far Rockaway Station,Penn Station,2017,201
+Far Rockaway,Far Rockaway Station,Jamaica Station,2017,7
+Far Rockaway,Far Rockaway Station,Atlantic Terminal,2017,281
+Far Rockaway,Jamaica Station,Penn Station,2017,11
+Far Rockaway,Jamaica Station,Far Rockaway Station,2017,10
+Far Rockaway,Jamaica Station,Atlantic Terminal,2017,68
+Far Rockaway,Penn Station,Jamaica Station,2017,1
+Far Rockaway,Penn Station,Far Rockaway Station,2017,59
+Far Rockaway,Valley Stream Station,Penn Station,2017,55
+Hempstead,Atlantic Terminal,Hempstead Station,2017,338
+Hempstead,Bellmont Race Track,Jamaica Station,2017,3
+Hempstead,Hempstead Station,Penn Station,2017,136
+Hempstead,Hempstead Station,Jamaica Station,2017,33
+Hempstead,Hempstead Station,Atlantic Terminal,2017,494
+Hempstead,Jamaica Station,Hempstead Station,2017,19
+Hempstead,Jamaica Station,Bellmont Race Track,2017,3
+Hempstead,Penn Station,Hempstead Station,2017,233
+Hempstead,Penn Station,Bellmont Race Track,2017,16
+Hunt. Hicks.,Atlantic Terminal,Huntington Station,2017,41
+Hunt. Hicks.,Cold Spring Harbor Sta.,Penn Station,2017,33
+Hunt. Hicks.,Hicksville Station,Penn Station,2017,41
+Hunt. Hicks.,Huntington Station,Penn Station,2017,1010
+Hunt. Hicks.,Huntington Station,Hunterspoint Ave.,2017,23
+Hunt. Hicks.,Huntington Station,Hicksville Station,2017,1
+Hunt. Hicks.,Huntington Station,Atlantic Terminal,2017,27
+Hunt. Hicks.,Jamaica Station,Huntington Station,2017,9
+Hunt. Hicks.,Mineola Station,Penn Station,2017,2
+Hunt. Hicks.,Penn Station,Westbury Station,2017,15
+Hunt. Hicks.,Penn Station,Jamaica Station,2017,10
+Hunt. Hicks.,Penn Station,Huntington Station,2017,1357
+Hunt. Hicks.,Penn Station,Hicksville Station,2017,103
+Hunt. Hicks.,Westbury Station,Penn Station,2017,41
+Long Beach,Atlantic Terminal,Long Beach Station,2017,166
+Long Beach,Jamaica Station,Long Beach Station,2017,7
+Long Beach,Jamaica Station,Atlantic Terminal,2017,4
+Long Beach,Long Beach Station,Penn Station,2017,652
+Long Beach,Long Beach Station,Jamaica Station,2017,2
+Long Beach,Long Beach Station,Hunterspoint Ave.,2017,3
+Long Beach,Long Beach Station,Atlantic Terminal,2017,93
+Long Beach,Penn Station,Long Beach Station,2017,470
+Montauk,Babylon Station,Speonk Station,2017,140
+Montauk,Babylon Station,Patchogue Station,2017,244
+Montauk,Babylon Station,Montauk Station,2017,28
+Montauk,Hunterspoint Ave.,Montauk Station,2017,43
+Montauk,Hunterspoint Ave.,Freeport Station,2017,2
+Montauk,Jamaica Station,Speonk Station,2017,56
+Montauk,Jamaica Station,Patchogue Station,2017,120
+Montauk,Jamaica Station,Montauk Station,2017,319
+Montauk,Jamaica Station,Babylon Station,2017,2
+Montauk,Long Island City,Patchogue Station,2017,70
+Montauk,Montauk Station,Penn Station,2017,4
+Montauk,Montauk Station,Long Island City,2017,66
+Montauk,Montauk Station,Jamaica Station,2017,237
+Montauk,Montauk Station,Hunterspoint Ave.,2017,2
+Montauk,Montauk Station,Babylon Station,2017,41
+Montauk,Patchogue Station,Jamaica Station,2017,14
+Montauk,Patchogue Station,Babylon Station,2017,209
+Montauk,Penn Station,Speonk Station,2017,38
+Montauk,Penn Station,Montauk Station,2017,31
+Montauk,Speonk Station,Penn Station,2017,89
+Montauk,Speonk Station,Long Island City,2017,4
+Montauk,Speonk Station,Jamaica Station,2017,97
+Montauk,Speonk Station,Hunterspoint Ave.,2017,45
+Montauk,Speonk Station,Babylon Station,2017,66
+Oyster Bay,East Williston Station,Penn Station,2017,18
+Oyster Bay,Hunterspoint Ave.,Oyster Bay Station,2017,79
+Oyster Bay,Jamaica Station,Oyster Bay Station,2017,355
+Oyster Bay,Long Island City,Oyster Bay Station,2017,55
+Oyster Bay,Mineola Station,Penn Station,2017,1
+Oyster Bay,Oyster Bay Station,Penn Station,2017,23
+Oyster Bay,Oyster Bay Station,Mineola Station,2017,9
+Oyster Bay,Oyster Bay Station,Long Island City,2017,42
+Oyster Bay,Oyster Bay Station,Jamaica Station,2017,246
+Oyster Bay,Oyster Bay Station,Hunterspoint Ave.,2017,33
+Oyster Bay,Penn Station,Oyster Bay Station,2017,92
+Port Jefferson,Hicksville Station,Port Jefferson Station,2017,95
+Port Jefferson,Hunterspoint Ave.,Port Jefferson Station,2017,56
+Port Jefferson,Huntington Station,Port Jefferson Station,2017,282
+Port Jefferson,Jamaica Station,Port Jefferson Station,2017,90
+Port Jefferson,Jamaica Station,Huntington Station,2017,1
+Port Jefferson,Long Island City,Port Jefferson Station,2017,96
+Port Jefferson,Penn Station,Port Jefferson Station,2017,77
+Port Jefferson,Port Jefferson Station,Penn Station,2017,92
+Port Jefferson,Port Jefferson Station,Long Island City,2017,31
+Port Jefferson,Port Jefferson Station,Jamaica Station,2017,50
+Port Jefferson,Port Jefferson Station,Huntington Station,2017,188
+Port Jefferson,Port Jefferson Station,Hunterspoint Ave.,2017,102
+Port Jefferson,Port Jefferson Station,Hicksville Station,2017,84
+Port Jefferson,Stony Brook Station,Huntington Station,2017,22
+Port Washington,Great Neck Station,Penn Station,2017,309
+Port Washington,Hunterspoint Ave.,Great Neck Station,2017,2
+Port Washington,Little Neck Station,Penn Station,2017,21
+Port Washington,Penn Station,Port Washington Station,2017,950
+Port Washington,Penn Station,Great Neck Station,2017,305
+Port Washington,Port Washington Station,Penn Station,2017,1604
+Ronk. (greenpt.),Atlantic Terminal,Ronkonkoma Station,2017,57
+Ronk. (greenpt.),Bethpage Station,Penn Station,2017,75
+Ronk. (greenpt.),Brentwood Station,Penn Station,2017,17
+Ronk. (greenpt.),Central Islip Station,Penn Station,2017,28
+Ronk. (greenpt.),Deer Park Station,Riverhead Station,2017,9
+Ronk. (greenpt.),Farmingdale Station,Ronkonkoma Station,2017,2
+Ronk. (greenpt.),Farmingdale Station,Penn Station,2017,209
+Ronk. (greenpt.),Greenport Station,Ronkonkoma Station,2017,58
+Ronk. (greenpt.),Greenport Station,Jamaica Station,2017,1
+Ronk. (greenpt.),Hicksville Station,Penn Station,2017,19
+Ronk. (greenpt.),Hicksville Station,Atlantic Terminal,2017,1
+Ronk. (greenpt.),Hunterspoint Ave.,Ronkonkoma Station,2017,23
+Ronk. (greenpt.),Penn Station,Ronkonkoma Station,2017,1041
+Ronk. (greenpt.),Penn Station,Farmingdale Station,2017,74
+Ronk. (greenpt.),Penn Station,Central Islip Station,2017,8
+Ronk. (greenpt.),Penn Station,Brentwood Station,2017,29
+Ronk. (greenpt.),Riverhead Station,Ronkonkoma Station,2017,10
+Ronk. (greenpt.),Ronkonkoma Station,Yaphank Station,2017,20
+Ronk. (greenpt.),Ronkonkoma Station,Riverhead Station,2017,20
+Ronk. (greenpt.),Ronkonkoma Station,Penn Station,2017,1329
+Ronk. (greenpt.),Ronkonkoma Station,Greenport Station,2017,115
+Ronk. (greenpt.),Ronkonkoma Station,Atlantic Terminal,2017,44
+Ronk. (greenpt.),Yaphank Station,Ronkonkoma Station,2017,1
+West Hempstead,Atlantic Terminal,West Hempstead Station,2017,184
+West Hempstead,Jamaica Station,West Hempstead Station,2017,17
+West Hempstead,Jamaica Station,Atlantic Terminal,2017,44
+West Hempstead,Valley Stream Station,West Hempstead Station,2017,101
+West Hempstead,West Hempstead Station,Valley Stream Station,2017,19
+West Hempstead,West Hempstead Station,Penn Station,2017,32
+West Hempstead,West Hempstead Station,Jamaica Station,2017,14
+West Hempstead,West Hempstead Station,Hunterspoint Ave.,2017,14
+West Hempstead,West Hempstead Station,Atlantic Terminal,2017,80
