@@ -61,6 +61,9 @@
         <div id="showoverviewbutton">
           <a name="buttonanimation" href="#overview" class="btn btn-primary js-scroll-trigger">Show Overview</a>
         </div>
+        <div id="abouttheviz">
+          <a class="btn btn-primary js-scroll-trigger">About the Visualization</a>
+        </div>
       </div>
     </div>
   </header>
@@ -196,7 +199,7 @@
         <div class="page-header">
           <h1 id="houryear">Showing data for 2017</h1>
         </div>
-        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+        <p class="text-black-50 mb-0">LIRR riders often face delays during rush hours. In and around NYC rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
         <div class="dropdown row">
           <div class="col-md-4">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -217,18 +220,18 @@
           </div>
         </div>
       </div>
-              <div id="showexplorebutton" style="visibility: hidden;">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
-              <hr class="my-2">
-              <div >
-                <a href="#exploreDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
-              </div>
+      <div id="showexplorebutton" style="visibility: hidden;">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
+            <hr class="my-2">
+            <div >
+              <a href="#exploreDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
             </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
 
@@ -350,6 +353,7 @@
   var HOUR_ANIMATION = false;
   var BY_BRANCH_YEAR = 2017;
   var BY_HOUR_YEAR =2017;
+  var ANNOTATION_COLOR = "orange";
 
   // Define the div for the tooltip
   var tooltipDiv = d3.select("body").append("div") 
@@ -478,25 +482,145 @@
       yAxis.domain([0,3000]);
 
       if(action!="update"){
-        g.append("g")
+        var xaxisg = g.append("g")
+        .attr("transform", "translate(-12,"+height+")")
         .call(d3.axisBottom(xAxis))
-        .attr("class", "xaxis")
-        .attr("transform", "translate(0,"+height+")")
-        .select(".domain");
+        .attr("class", "xaxis");
+
+        xaxisg.selectAll("text").attr("transform", "translate(-12,20) rotate(-45)");
 
         g.append("g")
         .call(d3.axisLeft(yAxis))
+        .attr("class", "yaxis")
         .append("text")
         .attr("fill", "#000")
         .attr("transform", "rotate(-90)")
         .attr("y", 6)
         .attr("dy", "0.71em")
         .attr("text-anchor", "end")
-        .text("Number of Delays")
-        .attr("class", "yaxis");
+        .text("Number of Delays");
+
+        viz.append("line")
+        .attr("class","annotationhour1")
+        .attr("x1",850)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[16].key])+64)  
+        .attr("y2",yAxis(data[16].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)"); 
+
+        viz.append("line")
+        .attr("class","annotationhour2")
+        .attr("x1",850)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[17].key])+64)  
+        .attr("y2",yAxis(data[17].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)"); 
+
+        viz.append("line")
+        .attr("class","annotationhour3")
+        .attr("x1",850)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[18].key])+64)  
+        .attr("y2",yAxis(data[18].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)");
+        viz.append("text")
+        .attr("class","annotationtext")
+        .attr("x",800)  
+        .attr("y",58)
+        .text("Considered Peak Evening Rush Hours"); 
+
+        viz.append("line")
+        .attr("class","annotationhour4")
+        .attr("x1",250)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[6].key])+64)  
+        .attr("y2",yAxis(data[6].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)"); 
+
+        viz.append("line")
+        .attr("class","annotationhour5")
+        .attr("x1",250)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[7].key])+64)  
+        .attr("y2",yAxis(data[7].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)"); 
+
+        viz.append("line")
+        .attr("class","annotationhour6")
+        .attr("x1",250)  
+        .attr("y1",60)  
+        .attr("x2",xAxis(hoursMap[data[8].key])+64)  
+        .attr("y2",yAxis(data[8].value)+22)  
+        .attr("stroke",ANNOTATION_COLOR)  
+        .attr("stroke-width",2)  
+        .attr("marker-end","url(#arrow)");
+
+        viz.append("text")
+        .attr("class","annotationtext")
+        .attr("x",200)  
+        .attr("y",58)
+        .text("Considered Peak Morning Rush Hours"); 
       }
 
-      d3.select("#houridline").remove()
+      d3.select("#houridline").remove();
+
+      viz.select(".annotationhour1")
+      .attr("x1",850)  
+      .attr("y1",60)  
+      .transition(t)
+      .attr("x2",xAxis(hoursMap[data[16].key])+64)  
+      .attr("y2",yAxis(data[16].value)+22)  
+      .attr("marker-end","url(#arrow)");
+
+      viz.select(".annotationhour2")
+      .attr("x1",850)  
+      .attr("y1",60)  
+      .transition(t)
+      .attr("x2",xAxis(hoursMap[data[17].key])+64)  
+      .attr("y2",yAxis(data[17].value)+22)  
+      .attr("marker-end","url(#arrow)");
+
+      viz.select(".annotationhour3")
+      .transition(t)
+      .attr("x1",850)  
+      .attr("y1",60)  
+      .attr("x2",xAxis(hoursMap[data[18].key])+64)  
+      .attr("y2",yAxis(data[18].value)+22)  
+      .attr("marker-end","url(#arrow)");
+
+      viz.select(".annotationhour4")
+      .transition(t)
+      .attr("x1",250)  
+      .attr("y1",60)  
+      .attr("x2",xAxis(hoursMap[data[6].key])+64)  
+      .attr("y2",yAxis(data[6].value)+22)   
+      .attr("marker-end","url(#arrow)"); 
+
+      viz.select(".annotationhour5")
+      .transition(t)
+      .attr("x1",250)  
+      .attr("y1",60)  
+      .attr("x2",xAxis(hoursMap[data[7].key])+64)  
+      .attr("y2",yAxis(data[7].value)+22)    
+      .attr("marker-end","url(#arrow)"); 
+
+      viz.select(".annotationhour6")
+      .transition(t)
+      .attr("x1",250)  
+      .attr("y1",60)  
+      .attr("x2",xAxis(hoursMap[data[8].key])+64)  
+      .attr("y2",yAxis(data[8].value)+22)   
+      .attr("marker-end","url(#arrow)");
 
       g.append("path")
       .datum(data)
@@ -836,22 +960,79 @@ function updateOverviewViz(data)
 
   g.append("g")
   .attr("class", "xaxis")
-  .attr("transform", "translate(0,"+height+")")
+  .attr("transform", "translate(-10,"+height+")")
   .call(d3.axisBottom(xAxis))
   .select(".domain");
 
   g.selectAll("text")
-  .attr("transform", "translate(-10,30) rotate(-65)");
+  .attr("transform", "translate(-8,30) rotate(-65)");
 
   g.append("g")
   .call(d3.axisLeft(yAxis))
+  .attr("class","yaxis")
   .append("text")
   .attr("fill", "#000")
-  .attr("transform", "translate(45,-20)")
+  .attr("transform", "rotate(-90)")
   .attr("y", 6)
   .attr("dy", "0.71em")
   .attr("text-anchor", "end")
   .text("Number of Delays");
+
+
+
+
+  viz.append("line")
+  .attr("class","annotationhour11")
+  .attr("x1",200)  
+  .attr("y1",60)  
+  .attr("x2",xAxis(data[2].QD)+64)  
+  .attr("y2",yAxis(data[2].NR)+22)  
+  .attr("stroke","green")  
+  .attr("stroke-width",2)  
+  .attr("marker-end","url(#arrow)");
+
+  viz.append("text")
+  .attr("class","annotationtext")
+  .attr("x",125)  
+  .attr("y",58)
+  .attr("fill", "green")
+  .text("2011 highest peak"); 
+
+
+  viz.append("line")
+  .attr("class","annotationhour12")
+  .attr("x1",625)  
+  .attr("y1",60)  
+  .attr("x2",xAxis(data[12].QD)+64)  
+  .attr("y2",yAxis(data[12].NR)+22)  
+  .attr("stroke","orange")  
+  .attr("stroke-width",2)  
+  .attr("marker-end","url(#arrow)"); 
+
+
+  viz.append("text")
+  .attr("class","annotationtext")
+  .attr("x",525)  
+  .attr("y",58)
+  .attr("fill", "orange")
+  .text("2014 highest peak"); 
+
+  viz.append("line")
+  .attr("class","annotationhour13")
+  .attr("x1",1150)  
+  .attr("y1",60)  
+  .attr("x2",xAxis(data[25].QD)+64)  
+  .attr("y2",yAxis(data[25].NR)+22)  
+  .attr("stroke","red")  
+  .attr("stroke-width",2)  
+  .attr("marker-end","url(#arrow)");
+
+  viz.append("text")
+  .attr("class","annotationtext")
+  .attr("x",925)  
+  .attr("y",58)
+  .attr("fill", "red")
+  .text("2017 highest peak, higher than 2014"); 
 
 
   g.append("path")
@@ -899,7 +1080,6 @@ function updateOverviewViz(data)
   viz.select(".xaxis").selectAll(".tick")
   .filter(function(d,i) {return !(i%2)})
   .remove();
-
 
 }
 
@@ -1021,6 +1201,9 @@ d3v3.csv("pcdata.csv", function(error, data) {
     .attr("class", "axis-label")
     .attr("y", -19)
     .text(function(d) { return d.name; });
+
+    g.select(".axis").selectAll("g")
+    .selectAll("text").attr("class","exploreticks");
 
     // Add and store a brush for each axis.
     g.append("g")
@@ -1295,7 +1478,7 @@ div.tooltip {
 }
 
 .xaxis{
-  font-size:15px;
+  font-size:14px;
   color:#212529
 }
 
@@ -1307,22 +1490,22 @@ div.tooltip {
 
 
 .branchbars {
-  fill:#98abc5;
+  fill:#4682b4;
 }
 
 .tickyaxis text{
   font-size:15px;
-  fill:#98abc5;
+  fill:#4682b4;
 }
 
 .tickyaxis path{
   font-size:15px;
-  stroke:#98abc5;
+  stroke:#4682b4;
 }
 
 .tickyaxis line{
   font-size:15px;
-  stroke:#98abc5;
+  stroke:#4682b4;
 }
 
 .latebybars{
@@ -1366,6 +1549,9 @@ div.tooltip {
   padding-top:100px;
 }
 
+.annotationtext {
+  font-size:20px;
+}
 
 svg {
   font: 10px sans-serif;
@@ -1401,9 +1587,14 @@ svg {
 }
 
 .axis .axis-label {
-  font-size: 11px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+
+.exploreticks {
+  font-size:30px;
 }
 </style>
 
