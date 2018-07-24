@@ -70,8 +70,8 @@
 
 
   <!-- Projects Section -->
-  <section id="overview" class="projects-section bg-light">
-    <div class="container">
+  <section class="projects-section bg-light">
+    <div id="overview" class="container">
 
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -85,10 +85,10 @@
             <div id="overview" class="graphviz">
 
               <div class="viztext">
-                <h1>Overview of Data</h1>
-                <h2>Delays Over the last 7 years by each Quarter</h2>
+                <h3>Overview of Data</h3>
+                <h4>Delays Over the last 7 years by each Quarter</h4>
                 <p>The Long Island Rail Road (LIRR) has been the center of debate for many Long Islanders who travel into the city on a daily basis. Outrage over the massive delays in recent years has become more prevalent and widespread that the new president of the MTA has made LIRR improvements a priority.</p>
-                <p>This graph shows that overall increase in the number of delays over the last seven years. Spikes in the graph show certain times of year where other factors, like weather, affect the delays. However, note that the general trend of the number of delays has increased. While there may have been an increase in the number of riders, the MTA should account for this and give the exception service they promise to give.</p>
+                <p>This graph shows that overall increase in the number of delays over the last seven years. Spikes in the graph show certain times of year where other factors, like weather, affect the delays. However, note that the general trend of the number of delays has increased. While there may have been an increase in the number of riders, the MTA should account for this and give the exceptional service they promise to give.</p>
               </div>
 
             </div>
@@ -96,7 +96,6 @@
           <div id="showtimelinebutton" style="visibility: hidden;">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
                 <hr class="my-2">
                 <div>
@@ -124,7 +123,6 @@
         <div id="showbybranchbutton" style="visibility: hidden;">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
               <div class="small text-black-50 boxtext">See this timeline as annotations to the graph above showcasing the different events. Click on the news article lined in the popup to read more.</div>
               <hr class="my-2">
               <div >
@@ -137,7 +135,7 @@
       </div>
 
 
-    </br></br></br>
+    </br>
 
 
     <div id="bybranchiddiv" class="row align-items-center no-gutters mb-4 mb-lg-5 bybranchdivcontainer">
@@ -147,14 +145,15 @@
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <div class="page-header">
-            <h1 id="branchyear">Showing data for 2017</h1>
+            <h3 id="branchyear">Showing data for 2017</h3>
           </div>
           <p class="mb-0">Often times when improvements are made for LIRR, they are often targeted by branch. This graph show the number of delays by branch, as well as the median number of minutes for the delays. Median was chosen over the average to reduce the effect of the outliers that may have been caused by extreme weathers where heavy delays are inevitable.</p>
-        </br></br>
-        <h2>How to explore this visualization?</h2>
+        </br>
+        <h4>Exploring this Visualization</h4>
         <p>You can filter by year to visualize delays over the pervious years. One can note that delays have increased for some branches but reduced for others. Also explore where if delays have gotten worse from the number of minutes a train was delayed by.</p>
+        </br>
         <div class="dropdown row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Filter By Year
             </button>
@@ -168,16 +167,15 @@
               <a class="dropdown-item" href="javascript: updateByBranch('2017')">2017</a>
             </div>
           </div>
-          <div class="col-md-8">
-            <a name="branchanimation"><button type="button" class="btn btn-secondary">Toggle Animation Over Years</button></a>
+          <div class="col-md-4">
+            <a name="branchanimation"><button type="button" class="btn btn-secondary">Toggle Animation</button></a>
           </div>
         </div>
       </div>
       <div id="showbyhourbutton" style="visibility: hidden;">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
+            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays by branch. This is important as funding for LIRR improvements can be allocated by branch and this graph can help determine where funding is most necessary</div>
             <hr class="my-2">
             <div >
               <a href="#hourDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
@@ -197,11 +195,11 @@
     <div class="col-xl-4 col-lg-5">
       <div class="featured-text text-center text-lg-left">
         <div class="page-header">
-          <h1 id="houryear">Showing data for 2017</h1>
+          <h3 id="houryear">Showing data for 2017</h3>
         </div>
-        <p class="text-black-50 mb-0">LIRR riders often face delays during rush hours. In and around NYC rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
+        <p class="mb-0">LIRR riders often face delays during rush hours. In and around NYC rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
         <div class="dropdown row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Filter By Year
             </button>
@@ -215,8 +213,8 @@
               <a class="dropdown-item" href="javascript: updateByHour('2017')">2017</a>
             </div>
           </div>
-          <div class="col-md-8">
-            <a name="houranimation"><button type="button" class="btn btn-secondary">Toggle Animation Over Years</button></a>
+          <div class="col-md-4">
+            <a name="houranimation"><button type="button" class="btn btn-secondary">Toggle Animation</button></a>
           </div>
         </div>
       </div>
@@ -224,7 +222,7 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
+            <div class="small text-black-50 boxtext">While we can expect delays during hour hours, there is certainly a limit to which a daily LIRR passenger can endure. This graph allows the readers to drill down when most delays occur during the day. Filter by year to see how it has progressed over the years.</div>
             <hr class="my-2">
             <div >
               <a href="#exploreDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
@@ -240,7 +238,7 @@
   <div class="row justify-content-center no-gutters exploredivcontainer" id="exploreDivViz">
     <div class="featured-text text-center text-lg-left">
       <h4 id="explore">Explore</h4>
-      <p class="text-black-50 mb-0">Explore and research patterns and anomolies in the data to further enhance the ability to determine future improvement for happier LIRR riders.</p>
+      <p class="text-black-50 mb-0">Using the parallel coordinates graph below explore and research patterns in the data to determine potential future improvement for happier LIRR riders.</p>
     </div>
   </div>
   <!-- Project One Row -->
@@ -347,8 +345,8 @@
 
 <script>
 
-  var SVG_WIDTH = 1300;
-  var SVG_HEIGHT = 800;
+  var SVG_WIDTH = 1100;
+  var SVG_HEIGHT = 700;
   var BRANCH_ANIMATION = false;
   var HOUR_ANIMATION = false;
   var BY_BRANCH_YEAR = 2017;
@@ -483,11 +481,20 @@
 
       if(action!="update"){
         var xaxisg = g.append("g")
-        .attr("transform", "translate(-12,"+height+")")
+        .attr("transform", "translate(-8,"+height+")")
         .call(d3.axisBottom(xAxis))
         .attr("class", "xaxis");
 
-        xaxisg.selectAll("text").attr("transform", "translate(-12,20) rotate(-45)");
+        xaxisg.selectAll("text").attr("transform", "translate(-16,20) rotate(-45)");
+
+        g.append("text")
+        .attr("fill", "#000")
+        .attr("class", "xaxis")
+        .attr("x",xAxis(hoursMap[data[12].key])+64)
+        .attr("y", height+80)
+        .attr("dy", "0.71em")
+        .attr("text-anchor", "end")
+        .text("Hour of Departure Time");
 
         g.append("g")
         .call(d3.axisLeft(yAxis))
@@ -531,7 +538,7 @@
         .attr("marker-end","url(#arrow)");
         viz.append("text")
         .attr("class","annotationtext")
-        .attr("x",800)  
+        .attr("x",700)  
         .attr("y",58)
         .text("Considered Peak Evening Rush Hours"); 
 
@@ -681,7 +688,7 @@
       console.log(data);
       var vizW = SVG_WIDTH;
       var vizH = SVG_HEIGHT;
-      var margin = { top:20, right:40, bottom:150, left: 50 };
+      var margin = { top:20, right:50, bottom:150, left: 50 };
       var width = vizW - margin.left - margin.right;
       var height = vizH - margin.top - margin.bottom;
       var xAxis = d3.scaleBand().rangeRound([0,width]).padding(0.1);
@@ -734,6 +741,14 @@
 
     xaxisg.selectAll("text").attr("transform", "translate(-10,45) rotate(-45)");
 
+    viz.append("text")
+    .attr("fill", "#000")
+    .attr("class", "xaxis")
+    .attr("x",xAxis("Long Beach"))
+    .attr("y", height+100)
+    .attr("dy", "0.71em")
+    .attr("text-anchor", "end")
+    .text("LIRR Branch");
 
     // add the y Axis
     viz.append("g")
@@ -937,7 +952,7 @@ function updateAnnotations(data){
 
 function updateOverviewViz(data)
 {
-  var vizW = 1300;
+  var vizW = 1100;
   var vizH = 600;
   var margin = { top:20, right:20, bottom:100, left: 50 };
   var width = vizW - margin.left - margin.right;
@@ -960,12 +975,12 @@ function updateOverviewViz(data)
 
   g.append("g")
   .attr("class", "xaxis")
-  .attr("transform", "translate(-10,"+height+")")
+  .attr("transform", "translate(-5,"+height+")")
   .call(d3.axisBottom(xAxis))
   .select(".domain");
 
   g.selectAll("text")
-  .attr("transform", "translate(-8,30) rotate(-65)");
+  .attr("transform", "translate(-18,30) rotate(-65)");
 
   g.append("g")
   .call(d3.axisLeft(yAxis))
@@ -983,7 +998,7 @@ function updateOverviewViz(data)
 
   viz.append("line")
   .attr("class","annotationhour11")
-  .attr("x1",200)  
+  .attr("x1",150)  
   .attr("y1",60)  
   .attr("x2",xAxis(data[2].QD)+64)  
   .attr("y2",yAxis(data[2].NR)+22)  
@@ -993,7 +1008,7 @@ function updateOverviewViz(data)
 
   viz.append("text")
   .attr("class","annotationtext")
-  .attr("x",125)  
+  .attr("x",100)  
   .attr("y",58)
   .attr("fill", "green")
   .text("2011 highest peak"); 
@@ -1001,7 +1016,7 @@ function updateOverviewViz(data)
 
   viz.append("line")
   .attr("class","annotationhour12")
-  .attr("x1",625)  
+  .attr("x1",475)  
   .attr("y1",60)  
   .attr("x2",xAxis(data[12].QD)+64)  
   .attr("y2",yAxis(data[12].NR)+22)  
@@ -1012,14 +1027,14 @@ function updateOverviewViz(data)
 
   viz.append("text")
   .attr("class","annotationtext")
-  .attr("x",525)  
+  .attr("x",400)  
   .attr("y",58)
   .attr("fill", "orange")
   .text("2014 highest peak"); 
 
   viz.append("line")
   .attr("class","annotationhour13")
-  .attr("x1",1150)  
+  .attr("x1",850)  
   .attr("y1",60)  
   .attr("x2",xAxis(data[25].QD)+64)  
   .attr("y2",yAxis(data[25].NR)+22)  
@@ -1029,7 +1044,7 @@ function updateOverviewViz(data)
 
   viz.append("text")
   .attr("class","annotationtext")
-  .attr("x",925)  
+  .attr("x",700)  
   .attr("y",58)
   .attr("fill", "red")
   .text("2017 highest peak, higher than 2014"); 
@@ -1077,9 +1092,9 @@ function updateOverviewViz(data)
     displayAnnotations(d.QD);
   });
 
-  viz.select(".xaxis").selectAll(".tick")
-  .filter(function(d,i) {return !(i%2)})
-  .remove();
+  // viz.select(".xaxis").selectAll(".tick")
+  // .filter(function(d,i) {return !(i%2)})
+  // .remove();
 
 }
 
@@ -1528,9 +1543,13 @@ div.tooltip {
   stroke:#d0743c;
 }
 
+#showoverviewbutton{
+  padding-bottom: 20px;
+}
+
 
 .boxtext {
-  font-size:25px;
+  font-size:18px;
 }
 
 .timelinecontainer {
