@@ -62,11 +62,31 @@
           <a name="buttonanimation" href="#overview" class="btn btn-primary js-scroll-trigger">Show Overview</a>
         </div>
         <div id="abouttheviz">
-          <a class="btn btn-primary js-scroll-trigger">About the Visualization</a>
+          <a class="btn btn-primary js-scroll-trigger" data-toggle="modal" data-target=".bd-example-modal-lg">About the Visualization</a>
         </div>
       </div>
     </div>
   </header>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Sample paragraph Text</p>
+        <p>Sample paragraph Test</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <!-- Projects Section -->
@@ -197,20 +217,40 @@
         <div class="page-header">
           <h3 id="houryear">Showing data for 2017</h3>
         </div>
-        <p class="mb-0">LIRR riders often face delays during rush hours. In and around NYC rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
+        <p class="mb-0">LIRR riders often face delays during rush hours. In and around NYC, morning rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and evening rush hours between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
         <div class="dropdown row">
           <div class="col-md-6">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Filter By Year
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="javascript: updateByHour('2011')">2011</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2012')">2012</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2013')">2013</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2014')">2014</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2015')">2015</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2016')">2016</a>
-              <a class="dropdown-item" href="javascript: updateByHour('2017')">2017</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2011')">2011</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2012')">2012</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2013')">2013</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2014')">2014</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2015')">2015</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2016')">2016</a>
+              <a class="dropdown-item" href="javascript: updateByHourYear('2017')">2017</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filter By Branch
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="javascript: updateByHourBranch('All Branches')">All Branches</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('West Hempstead')">West Hempstead</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Ronk. (greenpt.)')">Ronk. (greenpt.)</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Port Washington')">Port Washington</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Port Jefferson')">Port Jefferson</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Oyster Bay')">Oyster Bay</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Montauk')">Montauk</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Long Beach')">Long Beach</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Hunt. Hicks.')">Hunt. Hicks.</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Hempstead')">Hempstead</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Far Rockaway')">Far Rockaway</a>
+              <a class="dropdown-item" href="javascript: updateByHourBranch('Babylon')">Babylon</a>
+
             </div>
           </div>
           <div class="col-md-4">
@@ -222,7 +262,7 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <div class="small text-black-50 boxtext">While we can expect delays during hour hours, there is certainly a limit to which a daily LIRR passenger can endure. This graph allows the readers to drill down when most delays occur during the day. Filter by year to see how it has progressed over the years.</div>
+            <div class="small text-black-50 boxtext">While we can expect delays during hour hours, there is certainly a limit to which a daily LIRR passenger can endure. This graph allows the readers to drill down when most delays occur during the day. Filter by year and/or branch to see how it has progressed over the years.</div>
             <hr class="my-2">
             <div >
               <a href="#exploreDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
@@ -351,7 +391,9 @@
   var HOUR_ANIMATION = false;
   var BY_BRANCH_YEAR = 2017;
   var BY_HOUR_YEAR =2017;
+  var BY_HOUR_BRANCH = "All Branches";
   var ANNOTATION_COLOR = "orange";
+  var OVERVIEW_YAXIS_MAX_NUM = 3000;
 
   // Define the div for the tooltip
   var tooltipDiv = d3.select("body").append("div") 
@@ -368,9 +410,12 @@
   });
 
   var byHourData = d3.csv("byHourData.csv", function(data){
+    document.getElementById("houryear").innerHTML = "Showing Data for "+BY_HOUR_BRANCH + " in " +BY_HOUR_YEAR;
     data.forEach(function(d) {
       d.NR = +d.NR;
     });
+    data = filterDataByYear(data, BY_HOUR_YEAR);
+    data = filterDataByBranch(data, BY_HOUR_BRANCH);
     updateByHourViz(data.slice(),data.slice(),"2017","start");
   });
 
@@ -381,13 +426,28 @@
       updateByBranchViz(data.slice(),data.slice(),year,"update");
     });}
 
-    function updateByHour(year){
-      BY_HOUR_YEAR = year;
-      document.getElementById("houryear").innerHTML = "Showing Data for "+year;
+    function updateByHourBranch(branch){
+      BY_HOUR_BRANCH = branch;
+      document.getElementById("houryear").innerHTML = "Showing Data for "+BY_HOUR_BRANCH + " in " +BY_HOUR_YEAR;
       d3.csv("byHourData.csv", function(data){
         data.forEach(function(d) {
           d.NR = +d.NR;
         });
+        data = filterDataByYear(data, BY_HOUR_YEAR);
+        data = filterDataByBranch(data, BY_HOUR_BRANCH);
+        updateByHourViz(data.slice(),data.slice(),BY_HOUR_YEAR,"update");
+      });
+    }
+
+    function updateByHourYear(year){
+      BY_HOUR_YEAR = year;
+      document.getElementById("houryear").innerHTML = "Showing Data for "+BY_HOUR_BRANCH + " in " +BY_HOUR_YEAR;
+      d3.csv("byHourData.csv", function(data){
+        data.forEach(function(d) {
+          d.NR = +d.NR;
+        });
+        data = filterDataByYear(data, BY_HOUR_YEAR);
+        data = filterDataByBranch(data, BY_HOUR_BRANCH);
         updateByHourViz(data.slice(),data.slice(),year,"update");
       });
     };
@@ -397,6 +457,15 @@
     {
       return data.filter(function(d, i){ return (d.year==year)}); 
     };
+    
+    function filterDataByBranch(data, branch){
+      if (branch=="All Branches") {
+        OVERVIEW_YAXIS_MAX_NUM = 3000;
+        return data;
+      }
+      OVERVIEW_YAXIS_MAX_NUM = 700;
+      return data.filter(function(d, i){ return (d.branch==branch)});
+    }
 
     function aggregateByHour(data)
     {
@@ -456,7 +525,6 @@
 
       const t = d3.transition()
       .duration(750);
-      data = filterDataByYear(data, year);
       data = aggregateByHour(data);
       var vizW = SVG_WIDTH;
       var vizH = SVG_HEIGHT;
@@ -477,7 +545,7 @@
       .x(function(d) { return xAxis(hoursMap[d.key])+14;})
       .y(function(d) { return yAxis(parseInt(d.value));})
       xAxis.domain(data.map(function(d) {return hoursMap[d.key]}));
-      yAxis.domain([0,3000]);
+      yAxis.domain([0,OVERVIEW_YAXIS_MAX_NUM]);
 
       if(action!="update"){
         var xaxisg = g.append("g")
@@ -495,17 +563,6 @@
         .attr("dy", "0.71em")
         .attr("text-anchor", "end")
         .text("Hour of Departure Time");
-
-        g.append("g")
-        .call(d3.axisLeft(yAxis))
-        .attr("class", "yaxis")
-        .append("text")
-        .attr("fill", "#000")
-        .attr("transform", "rotate(-90)")
-        .attr("y", 6)
-        .attr("dy", "0.71em")
-        .attr("text-anchor", "end")
-        .text("Number of Delays");
 
         viz.append("line")
         .attr("class","annotationhour1")
@@ -578,8 +635,20 @@
         .attr("y",58)
         .text("Considered Peak Morning Rush Hours"); 
       }
-
       d3.select("#houridline").remove();
+      d3.select("#overviewyaxisline").remove();
+
+      g.append("g")
+        .call(d3.axisLeft(yAxis))
+        .attr("id","overviewyaxisline")
+        .attr("class", "yaxis")
+        .append("text")
+        .attr("fill", "#000")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", "0.71em")
+        .attr("text-anchor", "end")
+        .text("Number of Delays");
 
       viz.select(".annotationhour1")
       .attr("x1",850)  
@@ -1284,7 +1353,7 @@ function transition(g) {
       index = index+1;
     }
     if(HOUR_ANIMATION==true){
-      updateByHour(years[index%7]);
+      updateByHourYear(years[index%7]);
       index = index+1;
     }
   }, 2000);
