@@ -59,10 +59,10 @@
         <h1 class="mx-auto my-0 text-uppercase">Long Island Rail Road</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5">Visualizing LIRR Delays for Future Improvements</h2>
         <div id="showoverviewbutton">
-          <a name="buttonanimation" href="#overview" class="btn btn-primary js-scroll-trigger">Show Overview</a>
+          <a name="buttonanimation" href="#overview" class="btn btn-primary js-scroll-trigger">Show Visualization</a>
         </div>
         <div id="abouttheviz">
-          <a class="btn btn-primary js-scroll-trigger" data-toggle="modal" data-target=".bd-example-modal-lg">About the Visualization</a>
+          <a class="btn btn-primary js-scroll-trigger" data-toggle="modal" data-target=".bd-example-modal-lg">About the Visualization</a>
         </div>
       </div>
     </div>
@@ -72,14 +72,26 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">About the Visualization</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>Sample paragraph Text</p>
-        <p>Sample paragraph Test</p>
+        <p>***Note: this visualization needs to be viewed with 90% zoom on a 15-inch screen for readability. If viewed on a larger screen, 100% zoom should suffice.*** </p>
+        <p>The structure of LIRR delays visualization follows an interactive slideshow model. This description will briefly talk about the author driven path at the beginning and the reader led paths that can be taken at each slide of visualization. There will be a brief discussion of the annotations, parameters, triggers and how each relates to the events that readers encounter.</p>
+        <p>The opening scene contains a button “Show Overview” which takes the user on a semi-author driven path showcasing each scene. At each scene, the author can decide to explore the data by hovering data points, filtering by branch and/or year, or by selecting and highlighting a portion of the parallel coordinates axis on the last scene to drill down into the data.</p>
+        <h5>Parameters and Triggers</h5>
+        <p>Beside each scene there is text to describe the scene and some conclusions derived from that scene and along with how it fits in the bigger story. A main difference between each scene is how the data is presented. While the bar graph shows data by branch the line graph, immediately after, shows data by the hour of the day. The implicit parameter between each scene is the filtering of data that is done behind the scenes because essentially the user has changed what data is being presented, similar to changing from year to year and different data points are plotted. For the third scene user can also filter by branch along with year, and branch and year are parameters. Filtering options presented in the dropdowns are triggers, because they result in a chain of events that change state of the data being presented. When a user clicks on option under “Filter by Year” or “Filter by Branch”, there are variables named “BY_BRANCH_YEAR”, “BY_HOUR_BRANCH” and “BY_HOUR_YEAR” that change state. These essentially change the text being display as well as the change of data point locations.</p>
+        <h5>Annotations</h5>
+        <p>Both of the line graphs contain annotations grabbing reader’s attention to specific points in the data. The first overview visualization shows that the peak number of delays across 2011, 2014, 2017 grew quite dramatically. Green, orange and red colors were used for coloring of the annotations to place extra emphasis on the increase in the number of delays. While the reader can determine this without the colors, the colors were used to mimic the importance of the issue at hand. The third scene uses annotations to visually inform the reader that during the rush hours there are higher number of delays. Because each scene is represented with a new view, and not a replaced view, none of the annotations are removed as one would expect from a single graph with different scenes.</p>
+        <h5>Visual Consistency</h5>
+        <p>Visual consistency was maintained across the entire visualization through multiple techniques. Using an opensource bootstrap theme helped narrow down to a few colors that best go together. For example, the tooltip uses the same border visual as the side text div for design consistency. Similarly, the x-axis labels for the graphs are rotated to a certain degree, where applicable, for ease of readability (especially for when the labels that are long and overlap over one another). The circle dots on the line graphs were of the same color across the graphs. However, note that for the bar chart, because of multi y-axes, two colors that were used are a subset of the twelve colors that were recommended by Ward’s “Information Visualization” (lesson 2.3.2). Color was used to emphasize the graphs and the text was either black or a shade of grey. All of the visual user interfaces are communicated to the user through button like elements, where the user can click for an event to occur, to the text displayed on the side bar, which explicitly tells users how the data can be investigated.</p>
+        <h4>Choice of visualizations</h4>
+        <p>The types of graphs were carefully chosen because they construct a story to let readers know that LIRR delays have significantly grown over the years. The first line graph is a perfect way to showcase this from an overview perspective while pointing out important peaks in the visualization. A line graph was chosen because data is shown over time and line graph represents that best. The y-axis starts from 1500 to spread the data evenly and use most of the graph real estate.</p>
+        <p>After seeing the first line graph, an average LIRR rider would immediately think about how bad the delays are on the route that they take. The second graph answers that question leaving the readers a way to explore the data over the years. A bar graph was chosen because the x-axis data is of categorical type with no certain order. Note that for the Late By axis starts at 7 minutes because all of the data was in whole numbers ranging between 7 and 12 minutes, and it was best to evenly distribute them so that user was able to differentiate across the branches by just looking at the length of the bars – because length is one of the first few strong visual cues of showing data. The axes are of different colors as they correlate with the color of the bars that data is being represented by. This is implicit marking of the data represented, therefore making a legend unnecessary.</p>
+        <p>So far users have seen which branches experience the most and the least delays. However, the real question is what part of the day do most of those delays happen? Do LIRR riders just complain during rush hours or do all riders complain about delays all the time? The third graph representing a line graph would answer leaving the user to filter the data by year and branch to see how the number of delays progressed over the years. Users can determine whether rush hours got worse or if other parts of the day got worse for the increase in delays in the last few years. This can greatly help narrow down where improvements need to be implemented.</p>
+        <p>The last slide is a free-form exploration chart that lets the user explore in more detail based on the previous graphs. Due to the many data dimensions where each variable needs to be thoroughly analyzed in conjunction with others, parallel coordinates graph does the job representing the data effectively. User can drag each of the axes to filter by year, branch, from, to, and the number of delays. The number of delays axis is in logarithmic scale because the most of the data was between 0 and 500 and very few data points were above 500 thus evenly distribute those data points across the spectrum so the user can see all data effectively. The axis labels can be improved and bigger for visibility, but due to the shear volume of the data being presented it is rather tough to be both visually appealing and effective on small screens. </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -106,57 +118,26 @@
 
               <div class="viztext">
                 <h3>Overview of Data</h3>
-                <h4>Delays Over the last 7 years by each Quarter</h4>
-                <p>The Long Island Rail Road (LIRR) has been the center of debate for many Long Islanders who travel into the city on a daily basis. Outrage over the massive delays in recent years has become more prevalent and widespread that the new president of the MTA has made LIRR improvements a priority.</p>
-                <p>This graph shows that overall increase in the number of delays over the last seven years. Spikes in the graph show certain times of year where other factors, like weather, affect the delays. However, note that the general trend of the number of delays has increased. While there may have been an increase in the number of riders, the MTA should account for this and give the exceptional service they promise to give.</p>
+                <h4>Delays over the last 7 years by each quarter</h4>
+                <p>The Long Island Rail Road (LIRR) has been the center of debate for many Long Islanders who travel into New York City on a daily basis. Outrage over the massive delays in recent years has become more prevalent and widespread that the newly-elected president of the MTA has made LIRR improvements a priority.</p>
+                <p>This graph shows that overall increase in the number of delays over the last seven years. Spikes in the graph show certain times of year where other factors, like weather, affect the delays. However, note that the general trend of the number of delays has increased. While there may have been an increase in the number of riders, the MTA should account for this and give the exceptional service they promise to give. Hover over each of the data points to see details.</p>
               </div>
 
             </div>
           </div>
-          <div id="showtimelinebutton" style="visibility: hidden;">
+          <div id="showbybranchbutton" style="visibility: hidden;">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
+                <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays over the past few years</div>
                 <hr class="my-2">
                 <div>
-                  <a href="#timelinedivcontainer" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
+                  <a href="#bybranchiddiv" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div id="timelinedivcontainer" class="container timelinecontainer">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header">
-              <h1 class="timelinecontainerheader">LIRR Delay Events</h1>
-            </div>
-            <div class="timelinediv" style="display:inline-block;width:100%;overflow-y:auto;">
-              <ul class="timeline timeline-horizontal">
-
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div id="showbybranchbutton" style="visibility: hidden;">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <div class="small text-black-50 boxtext">See this timeline as annotations to the graph above showcasing the different events. Click on the news article lined in the popup to read more.</div>
-              <hr class="my-2">
-              <div >
-                <a href="#bybranchiddiv" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-    </br>
-
 
     <div id="bybranchiddiv" class="row align-items-center no-gutters mb-4 mb-lg-5 bybranchdivcontainer">
       <div class="col-xl-8 col-lg-7">
@@ -167,11 +148,10 @@
           <div class="page-header">
             <h3 id="branchyear">Showing data for 2017</h3>
           </div>
-          <p class="mb-0">Often times when improvements are made for LIRR, they are often targeted by branch. This graph show the number of delays by branch, as well as the median number of minutes for the delays. Median was chosen over the average to reduce the effect of the outliers that may have been caused by extreme weathers where heavy delays are inevitable.</p>
+          <p class="mb-0">Often times when improvements are made for LIRR, they are often targeted by branch. This graph show the number of delays by branch, as well as the median number of minutes for the delays. Median was chosen over the average to reduce the effect of the outliers that may have been caused by extreme weathers where heavy delays are inevitable.</p>
         </br>
-        <h4>Exploring this Visualization</h4>
-        <p>You can filter by year to visualize delays over the pervious years. One can note that delays have increased for some branches but reduced for others. Also explore where if delays have gotten worse from the number of minutes a train was delayed by.</p>
-        </br>
+        <h4>Exploring this Visualization</h4>
+        <p>You can filter by year to visualize delays over the pervious years. One can note that delays have increased for some branches but reduced for others. Also explore where if delays have gotten worse from the number of minutes a train was delayed by.</p>
         <div class="dropdown row">
           <div class="col-md-6">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -195,7 +175,7 @@
       <div id="showbyhourbutton" style="visibility: hidden;">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
-            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays by branch. This is important as funding for LIRR improvements can be allocated by branch and this graph can help determine where funding is most necessary</div>
+            <div class="small text-black-50 boxtext">See this graph for an overview of the number of delays by branch. This is important as funding for LIRR improvements can be allocated by branch and this graph can help determine where funding is most necessary</div>
             <hr class="my-2">
             <div >
               <a href="#hourDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
@@ -217,7 +197,7 @@
         <div class="page-header">
           <h3 id="houryear">Showing data for 2017</h3>
         </div>
-        <p class="mb-0">LIRR riders often face delays during rush hours. In and around NYC, morning rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and evening rush hours between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
+        <p class="mb-0">LIRR riders often face delays during rush hours. In and around NYC, morning rush hours tend to be between 6 AM and 9 AM when there is an influx into the city and evening rush hours between 4 PM and 7 PM when there is an outflux out of the city. The graph shows how the delays experienced during the outflux are significantly higher than influx into the city during the morning rush hours.</p>
         <div class="dropdown row">
           <div class="col-md-6">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -253,7 +233,8 @@
 
             </div>
           </div>
-          <div class="col-md-4">
+        </br>
+          <div class="col-md-4 two-row-button">
             <a name="houranimation"><button type="button" class="btn btn-secondary">Toggle Animation</button></a>
           </div>
         </div>
@@ -261,8 +242,7 @@
       <div id="showexplorebutton" style="visibility: hidden;">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <div class="small text-black-50 boxtext">While we can expect delays during hour hours, there is certainly a limit to which a daily LIRR passenger can endure. This graph allows the readers to drill down when most delays occur during the day. Filter by year and/or branch to see how it has progressed over the years.</div>
+            <div class="small text-black-50 boxtext">While we can expect delays during rush hours, there is certainly a limit to which a daily LIRR passenger can endure. This graph allows the readers to drill down when most delays occur during the day. Filter by year and/or branch to see how it has progressed over the years.</div>
             <hr class="my-2">
             <div >
               <a href="#exploreDivViz" name="buttonanimation"><button type="button" class="btn btn-secondary">Next</button></a>
@@ -278,7 +258,7 @@
   <div class="row justify-content-center no-gutters exploredivcontainer" id="exploreDivViz">
     <div class="featured-text text-center text-lg-left">
       <h4 id="explore">Explore</h4>
-      <p class="text-black-50 mb-0">Using the parallel coordinates graph below explore and research patterns in the data to determine potential future improvement for happier LIRR riders.</p>
+      <p class="text-black-50 mb-0">Using the parallel coordinates graph below explore and research patterns in the data to determine potential future improvement for happier LIRR riders.</p>
     </div>
   </div>
   <!-- Project One Row -->
@@ -287,25 +267,6 @@
   </div>
 
 </div>
-</section>
-
-<!-- Signup Section -->
-<section id="signup" class="signup-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-        <form class="form-inline d-flex">
-          <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-          <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-        </form>
-
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- Contact Section -->
@@ -317,23 +278,10 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <div class="card py-4 h-100">
           <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
+            <i class="fas fa-user-alt text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">About the Author</h4>
             <hr class="my-4">
-            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-envelope text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Email</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">
-              <a href="#">hello@yourdomain.com</a>
-            </div>
+            <div class="small text-black-50">This visualization was created by Sandeep Vanka while studying Data Visualization at UIUC.</div>
           </div>
         </div>
       </div>
@@ -342,24 +290,33 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-mobile-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
+            <h4 class="text-uppercase m-0">About this Project</h4>
             <hr class="my-4">
-            <div class="small text-black-50">+1 (555) 902-8832</div>
+            <div class="small text-black-50">This project was solely to learn about presenting visualizations effectively using d3 technologies.</div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="social d-flex justify-content-center">
-      <a href="#" class="mx-2">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#" class="mx-2">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#" class="mx-2">
-        <i class="fab fa-github"></i>
-      </a>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-4 h-100">
+          <div class="card-body text-center">
+            <i class="fas fa-file text-primary mb-2"></i>
+            <h4 class="text-uppercase m-0">Resources</h4>
+            <hr class="my-4">
+            <div class="small text-black-50">
+              <a href="http://bl.ocks.org/sebastian-meier/03df214f456fc100526a">Parallel Coordinates</a>
+            </br>
+              <a href="http://gothamist.com/tags/LIRR">News Articles</a>
+            </br>
+              <a href="https://getbootstrap.com/docs/4.0/components/modal/">Bootstrap</a>
+            </br>
+              <a href="http://wx3z.lirr.org/latetrains/">LIRR Delays Data</a>
+            </br>
+              <a href="https://startbootstrap.com/template-overviews/grayscale/">Grayscale Template</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -368,7 +325,7 @@
 <!-- Footer -->
 <footer class="bg-black small text-center text-white-50">
   <div class="container">
-    Copyright &copy; Your Website 2018
+    Copyright &copy; LIRR Visualizations Github Pages 2018
   </div>
 </footer>
 
@@ -463,7 +420,7 @@
         OVERVIEW_YAXIS_MAX_NUM = 3000;
         return data;
       }
-      OVERVIEW_YAXIS_MAX_NUM = 700;
+      OVERVIEW_YAXIS_MAX_NUM = 800;
       return data.filter(function(d, i){ return (d.branch==branch)});
     }
 
@@ -477,9 +434,9 @@
     };
 
     /**
-    #######################################################
+    #######################################################
         
-            Button Functions/Clicks logic
+            Button Functions/Clicks logic
 
     #######################################################
     **/
@@ -496,7 +453,7 @@
       HOUR_ANIMATION=!HOUR_ANIMATION; 
     });
 
-    var ani = ["showoverviewbutton","showtimelinebutton","showbybranchbutton","showbyhourbutton","showexplorebutton"];
+    var ani = ["showoverviewbutton","showbybranchbutton","showbyhourbutton","showexplorebutton"];
     var aniState = 0;
     $("a[name=buttonanimation]").on("click", function (){
       document.getElementById(ani[aniState]).style.visibility="hidden";
@@ -512,7 +469,7 @@
 
 
     /**
-    #######################################################
+    #######################################################
         
             By Hour Viz Function
 
@@ -936,7 +893,7 @@
     tooltipDiv.transition()    
     .duration(200)    
     .style("opacity", 1);    
-    tooltipDiv.html(d.branch + "<br/> On avg. "  + d.value + " min delays")  
+    tooltipDiv.html(d.branch + "<br/> Median: "  + d.value + " min delays")  
     .style("left", (d3.event.pageX) + "px")   
     .style("top", (d3.event.pageY - 52) + "px");  
   })          
@@ -1080,7 +1037,7 @@ function updateOverviewViz(data)
   .attr("x",100)  
   .attr("y",58)
   .attr("fill", "green")
-  .text("2011 highest peak"); 
+  .text("2011 highest peak"); 
 
 
   viz.append("line")
@@ -1099,7 +1056,7 @@ function updateOverviewViz(data)
   .attr("x",400)  
   .attr("y",58)
   .attr("fill", "orange")
-  .text("2014 highest peak"); 
+  .text("2014 highest peak"); 
 
   viz.append("line")
   .attr("class","annotationhour13")
@@ -1116,7 +1073,7 @@ function updateOverviewViz(data)
   .attr("x",700)  
   .attr("y",58)
   .attr("fill", "red")
-  .text("2017 highest peak, higher than 2014"); 
+  .text("2017 highest peak, higher than 2014"); 
 
 
   g.append("path")
@@ -1680,9 +1637,13 @@ svg {
   text-transform: uppercase;
 }
 
+.two-row-button {
+  padding-top: 5px;
+}
 
-.exploreticks {
-  font-size:30px;
+
+.exploreticks {
+  font-size:17px;
 }
 </style>
 
